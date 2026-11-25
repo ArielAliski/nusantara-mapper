@@ -1,0 +1,80 @@
+id: malacca
+name: Malacca Sultanate
+names:
+  - { name: Kesultanan Melayu Melaka, lang: Malay }
+  - { name: Melaka }
+type: sultanate
+period:
+  start: { year: 1400, approx: true }
+  end: { year: 1511 }
+color: "#2e7d4f"
+capitals:
+  - { name: Melaka, from: 1400, to: 1511, coords: [102.25, 2.19] }
+summary: >
+  Malacca was founded around 1400 by Parameswara, a prince from Palembang by way of Singapura, and
+  quickly secured Ming Chinese protection. It became the leading entrepôt of the Strait of Malacca.
+  Its rulers adopted Islam, and in the mid-to-late 15th century, under the bendahara Tun Perak, it
+  brought much of the Malay Peninsula and the facing Sumatran coast under its authority. It fell to the
+  Portuguese in 1511; the dynasty continued in Johor and Perak.
+rulers:
+  - { name: Parameswara, from: 1400, to: 1414, approx: true, note: Often identified with Iskandar Shah; the identification is debated. }
+  - { name: Megat Iskandar Shah, from: 1414, to: 1424, approx: true }
+  - { name: Muhammad Shah, from: 1424, to: 1444, approx: true }
+  - { name: Abu Syahid, from: 1444, to: 1446, approx: true }
+  - { name: Muzaffar Shah, from: 1446, to: 1459, approx: true }
+  - { name: Mansur Shah, from: 1459, to: 1477, approx: true }
+  - { name: Alauddin Riayat Shah, from: 1477, to: 1488, approx: true }
+  - { name: Mahmud Shah, from: 1488, to: 1511, note: Continued to rule in exile after 1511. }
+religions: [Sunni Islam]
+events:
+  - { year: 1400, approx: true, text: "Parameswara settles at Melaka." }
+  - { year: 1405, text: "First Ming embassy recognises the ruler of Melaka." }
+  - { year: 1411, text: "Parameswara visits the Yongle Emperor in China." }
+  - { year: 1456, approx: true, text: "Tun Perak becomes bendahara and directs Malacca's expansion." }
+  - { year: 1511, text: "Portuguese forces under Afonso de Albuquerque capture Melaka (August)." }
+emblem: null
+confidence: medium
+sources: [andaya2017, coedes1968, pires1944]
+successors: []
+notes: >
+  Dates for the individual conquests are approximate. They come largely from the Sejarah Melayu
+  (Malay Annals) and Portuguese accounts. Borders follow modern states only as a stand-in.
+
+territory:
+  - from: 1400
+    to: 1511
+    regions: [melaka]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1454
+    to: 1511
+    regions: [pahang]
+    boundary_type: approximate
+    confidence: low
+    note: Pahang subdued around the mid-1450s.
+  - from: 1459
+    to: 1511
+    grow_until: 1470
+    regions: [johor, singapore, riau_islands, selangor, negeri_sembilan]
+    boundary_type: approximate
+    confidence: low
+    note: Expansion during Mansur Shah's reign (1459–1477). Dates for individual territories are uncertain.
+  - from: 1459
+    to: 1511
+    grow_until: 1477
+    regions: [riau_mainland]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Kampar, Siak and Indragiri on Sumatra's east coast acknowledged Malacca.
+  - from: 1470
+    to: 1511
+    regions: [perak]
+    boundary_type: approximate
+    confidence: low
+  - from: 1470
+    to: 1511
+    grow_until: 1499
+    regions: [kedah, terengganu, kelantan]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Acknowledged Malacca's overlordship in the late 15th century (Kelantan c. 1499). Siam also claimed suzerainty.

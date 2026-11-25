@@ -1,0 +1,106 @@
+# Shared bibliography. Polity files cite these by id.
+# Fields: title (required), author, year, publisher, url, note
+
+ricklefs2008:
+  author: M. C. Ricklefs
+  title: A History of Modern Indonesia since c. 1200 (4th ed.)
+  publisher: Palgrave Macmillan
+  year: 2008
+coedes1968:
+  author: George Cœdès
+  title: The Indianized States of Southeast Asia (ed. W. F. Vella, trans. S. B. Cowing)
+  publisher: University of Hawaii Press
+  year: 1968
+pigeaud1960:
+  author: Th. G. Th. Pigeaud
+  title: "Java in the 14th Century: A Study in Cultural History. The Nāgara-Kěrtāgama by Rakawi Prapañca of Majapahit, 1365 A.D."
+  publisher: Martinus Nijhoff
+  year: 1960
+  note: Five volumes, 1960–1963. Cantos 13–15 list the regions claimed as tributaries.
+degraaf_pigeaud1974:
+  author: H. J. de Graaf and Th. G. Th. Pigeaud
+  title: De eerste Moslimse vorstendommen op Java
+  publisher: Martinus Nijhoff (Verhandelingen KITLV 69)
+  year: 1974
+  note: Main reference for the chronology of Demak's conquests.
+pires1944:
+  author: Tomé Pires
+  title: The Suma Oriental of Tomé Pires (trans. Armando Cortesão)
+  publisher: Hakluyt Society
+  year: 1944
+  note: Eyewitness description of Java's political situation c. 1512–1515.
+munoz2006:
+  author: Paul Michel Munoz
+  title: Early Kingdoms of the Indonesian Archipelago and the Malay Peninsula
+  publisher: Editions Didier Millet
+  year: 2006
+wolters1967:
+  author: O. W. Wolters
+  title: "Early Indonesian Commerce: A Study of the Origins of Śrīvijaya"
+  publisher: Cornell University Press
+  year: 1967
+andaya2017:
+  author: Barbara Watson Andaya and Leonard Y. Andaya
+  title: A History of Malaysia (3rd ed.)
+  publisher: Palgrave
+  year: 2017
+bellwood2007:
+  author: Peter Bellwood
+  title: Prehistory of the Indo-Malaysian Archipelago (rev. ed.)
+  publisher: ANU E Press
+  year: 2007
+vogel1918:
+  author: J. Ph. Vogel
+  title: The Yūpa Inscriptions of King Mūlavarman, from Koetei (East Borneo)
+  publisher: Bijdragen tot de Taal-, Land- en Volkenkunde 74
+  year: 1918
+vogel1925:
+  author: J. Ph. Vogel
+  title: The Earliest Sanskrit Inscriptions of Java
+  publisher: Publicaties van den Oudheidkundigen Dienst in Nederlandsch-Indië I
+  year: 1925
+cribb_kahin2004:
+  author: Robert Cribb and Audrey Kahin
+  title: Historical Dictionary of Indonesia (2nd ed.)
+  publisher: Scarecrow Press
+  year: 2004
+nyagreement1962:
+  title: Agreement between the Republic of Indonesia and the Kingdom of the Netherlands concerning West New Guinea (West Irian)
+  year: 1962
+  note: Signed New York, 15 August 1962. UNTEA administered the territory until 1 May 1963.
+unscr1272:
+  author: United Nations Security Council
+  title: Resolution 1272 (1999), establishing UNTAET
+  year: 1999
+  url: https://undocs.org/S/RES/1272(1999)
+malaysia_agreement1963:
+  title: Agreement relating to Malaysia (Malaysia Agreement)
+  year: 1963
+  note: Signed London, 9 July 1963; Malaysia formed 16 September 1963.
+sg_independence1965:
+  title: Independence of Singapore Agreement 1965
+  year: 1965
+  note: Singapore separated from Malaysia on 9 August 1965.
+brunei1979:
+  title: Treaty of Friendship and Co-operation between the United Kingdom and Brunei
+  year: 1979
+  note: Brunei became fully independent on 1 January 1984.
+manila1946:
+  title: Treaty of General Relations between the United States and the Republic of the Philippines (Treaty of Manila)
+  year: 1946
+  note: Philippine independence recognised on 4 July 1946.
+gunn1999:
+  author: Geoffrey C. Gunn
+  title: "Timor Loro Sae: 500 Years"
+  publisher: Livros do Oriente
+  year: 1999
+runciman1960:
+  author: Steven Runciman
+  title: "The White Rajahs: A History of Sarawak from 1841 to 1946"
+  publisher: Cambridge University Press
+  year: 1960
+reid1969:
+  author: Anthony Reid
+  title: "The Contest for North Sumatra: Atjeh, the Netherlands and Britain, 1858–1898"
+  publisher: Oxford University Press / University of Malaya Press
+  year: 1969

@@ -1,0 +1,125 @@
+id: voc
+name: Dutch East India Company (VOC)
+names:
+  - { name: Vereenigde Oostindische Compagnie, lang: Dutch }
+type: company_state
+period:
+  start: { year: 1602 }
+  end: { year: 1800 }
+color: "#c96a1b"
+capitals:
+  - { name: Ambon, from: 1610, to: 1619, coords: [128.18, -3.70], note: Seat of the governor-general. }
+  - { name: Batavia, from: 1619, to: 1800, coords: [106.81, -6.13] }
+summary: >
+  The VOC was a chartered Dutch trading company with powers to wage war, sign treaties and govern.
+  It seized Ambon in 1605, founded Batavia on the ruins of Jayakarta in 1619, and conquered the Banda
+  Islands in 1621 to monopolise nutmeg. It took Malacca from the Portuguese in 1641 and Makassar in
+  1667–69, and gained much of Java's coast and the Priangan through interventions in Mataram's wars.
+  Debt and corruption led to its dissolution at the end of 1799; its possessions passed to the Dutch
+  state.
+rulers:
+  - { name: Pieter Both, from: 1610, to: 1614, note: First governor-general }
+  - { name: Jan Pieterszoon Coen, from: 1619, to: 1623, note: "Again 1627–1629" }
+  - { name: Antonio van Diemen, from: 1636, to: 1645 }
+  - { name: Rijcklof van Goens, from: 1678, to: 1681 }
+religions: [Dutch Reformed Church (company)]
+events:
+  - { year: 1602, text: "The VOC is chartered in the Dutch Republic." }
+  - { year: 1605, text: "The VOC takes Ambon from the Portuguese." }
+  - { year: 1619, text: "Coen captures Jayakarta and founds Batavia." }
+  - { year: 1621, text: "Conquest of the Banda Islands and destruction of their population." }
+  - { year: 1641, text: "The VOC takes Malacca from the Portuguese." }
+  - { year: 1667, text: "Treaty of Bongaya after the war with Makassar (Gowa)." }
+  - { year: 1740, text: "Massacre of Batavia's Chinese population." }
+  - { year: 1768, approx: true, text: "Conquest of Blambangan completed." }
+  - { year: 1799, text: "The VOC is dissolved (31 December)." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008, andaya2017]
+unmapped:
+  - { from: 1602, to: 1605, note: "Trading voyages only; the first territorial possession was Ambon (1605)." }
+successors: [dutch_east_indies]
+notes: >
+  The VOC controlled forts, ports and treaty lands, not whole regions. Large areas drawn here were
+  held through vassal rulers. Malacca passed to British occupation in 1795.
+territory:
+  - from: 1605
+    to: 1800
+    grow_until: 1625
+    regions: [maluku]
+    boundary_type: approximate
+    confidence: low
+    note: Ambon 1605, Banda 1621; Seram and other islands gradually.
+  - from: 1619
+    to: 1800
+    regions: [batavia]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1684
+    to: 1800
+    regions: [wj_north_coast]
+    boundary_type: approximate
+    confidence: medium
+    note: Batavia's surroundings (ommelanden), Tangerang and Karawang.
+  - from: 1641
+    to: 1795
+    regions: [melaka]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1653
+    to: 1800
+    regions: [kupang_area]
+    boundary_type: approximate
+    confidence: low
+  - from: 1667
+    to: 1800
+    regions: [makassar_area]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1667
+    to: 1800
+    regions: [south_sulawesi]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Bone and other allied or vassal states.
+  - from: 1683
+    to: 1800
+    regions: [north_maluku]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Ternate (vassal from 1683) and Tidore.
+  - from: 1684
+    to: 1800
+    regions: [banten_west]
+    boundary_type: zone_of_influence
+    confidence: medium
+    note: Banten became a VOC vassal after the civil war of 1682–84.
+  - from: 1705
+    to: 1800
+    regions: [wj_bogor, wj_priangan, wj_cirebon, cj_semarang]
+    boundary_type: approximate
+    confidence: medium
+    note: Ceded by Mataram in 1677–1705.
+  - from: 1743
+    to: 1800
+    regions: [cj_demak, cj_lasem, ej_tuban, ej_surabaya_gresik]
+    boundary_type: approximate
+    confidence: medium
+    note: North coast ceded by Pakubuwana II in 1743.
+  - from: 1743
+    to: 1800
+    regions: [madura]
+    boundary_type: approximate
+    confidence: low
+  - from: 1768
+    to: 1800
+    grow_from: 1767
+    regions: [ej_blambangan, ej_lumajang]
+    boundary_type: approximate
+    confidence: low
+  - from: 1755
+    to: 1800
+    regions: [cj_interior, ej_brantas, ej_madiun, cj_west]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Yogyakarta and Surakarta, princely states under VOC suzerainty after Giyanti.

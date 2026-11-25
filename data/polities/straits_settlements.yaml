@@ -1,0 +1,55 @@
+id: straits_settlements
+name: Straits Settlements
+names:
+  - { name: "British settlements of Penang, Singapore and Malacca" }
+type: colony
+period:
+  start: { year: 1786 }
+  end: { year: 1946 }
+color: "#a33d5a"
+capitals:
+  - { name: George Town (Penang), from: 1786, to: 1832, coords: [100.33, 5.41] }
+  - { name: Singapore, from: 1832, to: 1946, coords: [103.85, 1.29] }
+summary: >
+  The British East India Company acquired Penang in 1786 and founded a trading post at Singapore in
+  1819. Malacca was transferred from the Dutch under the Anglo-Dutch Treaty of 1824. The three were
+  joined as the Straits Settlements in 1826 and became a Crown colony in 1867. Singapore grew into the
+  region's leading port. The colony was dissolved in 1946.
+rulers: []
+religions: [Islam, Buddhism, Chinese folk religion, Hinduism, Christianity]
+events:
+  - { year: 1786, text: "Francis Light establishes a British settlement on Penang." }
+  - { year: 1819, text: "Raffles establishes a British trading post at Singapore." }
+  - { year: 1824, text: "Anglo-Dutch Treaty: Malacca passes to Britain, Bengkulu to the Netherlands." }
+  - { year: 1826, text: "Penang, Singapore and Malacca are joined as the Straits Settlements." }
+  - { year: 1867, text: "The Straits Settlements become a Crown colony." }
+  - { year: 1946, text: "The Straits Settlements are dissolved." }
+emblem: null
+confidence: high
+sources: [andaya2017]
+successors: [malaya, singapore_colony]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: Province Wellesley on the mainland opposite Penang, the Dindings and Labuan are not drawn separately.
+territory:
+  - from: 1786
+    to: 1942
+    regions: [penang]
+    boundary_type: documented
+    confidence: medium
+  - from: 1819
+    to: 1942
+    regions: [singapore]
+    boundary_type: documented
+    confidence: medium
+    note: Trading post from 1819; the whole island was ceded in 1824.
+  - from: 1825
+    to: 1942
+    regions: [melaka]
+    boundary_type: documented
+    confidence: medium
+  - from: 1945
+    to: 1946
+    regions: [penang, singapore, melaka]
+    boundary_type: documented
+    confidence: high

@@ -1,0 +1,83 @@
+id: indonesia
+name: Indonesia
+names:
+  - { name: Republik Indonesia, lang: Indonesian }
+  - { name: Republic of the United States of Indonesia, note: "Federal form, December 1949 – August 1950" }
+type: state
+period:
+  start: { year: 1945 }
+  end: null
+color: "#d0473f"
+capitals:
+  - { name: Jakarta, from: 1945, to: 1946, coords: [106.83, -6.18] }
+  - { name: Yogyakarta, from: 1946, to: 1949, coords: [110.37, -7.80], note: Revolutionary capital }
+  - { name: Jakarta, from: 1949, coords: [106.83, -6.18], note: "Law 3/2022 designates Nusantara (East Kalimantan) as the future capital; check the current status of the move." }
+summary: >
+  Sukarno and Hatta proclaimed Indonesian independence on 17 August 1945, two days after Japan's
+  surrender. Four years of revolution and diplomacy followed before the Netherlands transferred
+  sovereignty over the former Dutch East Indies, except western New Guinea, on 27 December 1949.
+  Western New Guinea passed to Indonesia via a UN administration in 1963. East Timor was occupied from
+  1975 to 1999, and that annexation was never recognised by the UN.
+rulers:
+  - { name: Sukarno, from: 1945, to: 1967 }
+  - { name: Suharto, from: 1967, to: 1998 }
+  - { name: B. J. Habibie, from: 1998, to: 1999 }
+  - { name: Abdurrahman Wahid, from: 1999, to: 2001 }
+  - { name: Megawati Sukarnoputri, from: 2001, to: 2004 }
+  - { name: Susilo Bambang Yudhoyono, from: 2004, to: 2014 }
+  - { name: Joko Widodo, from: 2014, to: 2024 }
+  - { name: Prabowo Subianto, from: 2024 }
+religions: [Islam (majority), Protestantism, Catholicism, Hinduism, Buddhism, Confucianism]
+events:
+  - { year: 1945, text: "Proclamation of independence (17 August)." }
+  - { year: 1946, text: "Linggadjati Agreement: the Netherlands recognises the Republic's de facto authority over Java, Madura and Sumatra." }
+  - { year: 1947, text: "First Dutch military offensive (July)." }
+  - { year: 1948, text: "Second Dutch military offensive (December); Yogyakarta is captured." }
+  - { year: 1949, text: "Transfer of sovereignty (27 December)." }
+  - { year: 1950, text: "The federal republic is replaced by a unitary state (17 August)." }
+  - { year: 1963, text: "Western New Guinea is transferred from UNTEA to Indonesia (1 May)." }
+  - { year: 1975, text: "Invasion of East Timor (7 December)." }
+  - { year: 1998, text: "Fall of Suharto; start of Reformasi." }
+  - { year: 1999, text: "East Timor votes for independence in a UN-run referendum (30 August)." }
+emblem: null
+confidence: high
+sources: [ricklefs2008, cribb_kahin2004, nyagreement1962, unscr1272]
+predecessors: [dutch_east_indies, netherlands_indies_postwar, japanese_occupation]
+notes: >
+  1945–1949 is drawn as a low-confidence zone over Java, Madura and Sumatra, the areas recognised in
+  the 1946 Linggadjati Agreement. The Republic claimed the whole of the former Dutch East Indies, but
+  its real control shifted with the fighting and is not yet drawn year by year.
+
+territory:
+  - from: 1945
+    to: 1949
+    regions: [ej_brantas, ej_surabaya_gresik, ej_tuban, ej_madiun, ej_lumajang, ej_blambangan, madura,
+              cj_demak, cj_lasem, cj_semarang, cj_interior, cj_west, wj_north_coast, wj_bogor,
+              banten_west, wj_priangan, wj_cirebon, palembang, jambi, bangka_belitung, lampung, bengkulu,
+              west_sumatra, riau_mainland, riau_islands, north_sumatra, aceh]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: >
+      Areas recognised as under the Republic's de facto authority at Linggadjati (1946). The Dutch
+      held major cities and, after the 1947 and 1948 offensives, much more.
+  - from: 1949
+    to: null
+    countries: [IDN]
+    except_regions: [west_new_guinea]
+    boundary_type: documented
+    confidence: high
+    note: Transfer of sovereignty, 27 December 1949. Western New Guinea remained under Dutch rule until 1962–63.
+  - from: 1963
+    to: null
+    regions: [west_new_guinea]
+    boundary_type: documented
+    confidence: high
+    note: Transferred from UNTEA on 1 May 1963. The 1969 'Act of Free Choice' remains contested.
+  - from: 1976
+    to: 1999
+    regions: [east_timor]
+    boundary_type: occupation
+    confidence: high
+    note: >
+      Invaded December 1975; declared Indonesia's 27th province in July 1976. Never recognised by the
+      United Nations. Ended with the 1999 referendum and the UNTAET administration (October 1999).

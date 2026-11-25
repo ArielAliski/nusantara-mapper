@@ -1,0 +1,45 @@
+id: brunei_protectorate
+name: Brunei (British protectorate)
+names:
+  - { name: Brunei Sultanate }
+type: protectorate
+period:
+  start: { year: 1888 }
+  end: { year: 1984 }
+color: "#d4a017"
+capitals:
+  - { name: Brunei Town (Bandar Seri Begawan), from: 1888, to: 1984, coords: [114.94, 4.89] }
+summary: >
+  The Brunei Sultanate, once dominant on the coasts of Borneo, had lost most of its territory to the
+  Brooke Raj of Sarawak and North Borneo by the late 19th century. It became a British protectorate in
+  1888 and accepted a British Resident in 1906. Oil, discovered in 1929, transformed its economy.
+  Brunei declined to join Malaysia in 1963 and regained full independence in 1984.
+rulers:
+  - { name: Sultan Hashim Jalilul Alam Aqamaddin, from: 1885, to: 1906 }
+  - { name: Sultan Omar Ali Saifuddien III, from: 1950, to: 1967 }
+  - { name: Sultan Hassanal Bolkiah, from: 1967 }
+religions: [Sunni Islam]
+events:
+  - { year: 1888, text: "Brunei becomes a British protectorate." }
+  - { year: 1906, text: "A British Resident is appointed." }
+  - { year: 1929, text: "Oil is discovered at Seria." }
+  - { year: 1962, text: "The Brunei Revolt is suppressed by British forces." }
+emblem: null
+confidence: high
+sources: [andaya2017, brunei1979]
+successors: [brunei]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: The earlier, much larger Bruneian Sultanate (15th–19th centuries) is not mapped yet.
+territory:
+  - from: 1888
+    to: 1942
+    regions: [brunei]
+    boundary_type: documented
+    confidence: medium
+    note: The present two-part shape dates from Sarawak's annexation of Limbang in 1890.
+  - from: 1945
+    to: 1984
+    regions: [brunei]
+    boundary_type: documented
+    confidence: high

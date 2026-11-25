@@ -1,0 +1,106 @@
+id: mataram_sultanate
+name: Mataram Sultanate
+names:
+  - { name: Kesultanan Mataram, lang: Indonesian }
+type: sultanate
+period:
+  start: { year: 1587, approx: true }
+  end: { year: 1755 }
+color: "#8a3b5c"
+capitals:
+  - { name: Kotagede, from: 1587, to: 1614, coords: [110.40, -7.83], approx: true }
+  - { name: Kerta / Plered, from: 1614, to: 1680, coords: [110.39, -7.87], approx: true }
+  - { name: Kartasura, from: 1680, to: 1745, coords: [110.74, -7.55] }
+  - { name: Surakarta, from: 1745, to: 1755, coords: [110.83, -7.57] }
+summary: >
+  Mataram rose in the interior of Central Java under Panembahan Senapati in the late 16th century.
+  Under Sultan Agung (1613–1645) it conquered the north-coast ports and East Java, including Surabaya
+  in 1625, but failed to take VOC Batavia in 1628–29. Rebellions and succession wars from the 1670s
+  made the dynasty dependent on the VOC, to which it ceded the Priangan, the north coast and Madura in
+  stages. The Treaty of Giyanti in 1755 split it into Yogyakarta and Surakarta.
+rulers:
+  - { name: Panembahan Senapati, from: 1587, to: 1601, approx: true }
+  - { name: Panembahan Hanyakrawati, from: 1601, to: 1613 }
+  - { name: Sultan Agung, from: 1613, to: 1645 }
+  - { name: Amangkurat I, from: 1646, to: 1677 }
+  - { name: Amangkurat II, from: 1677, to: 1703 }
+  - { name: Pakubuwana II, from: 1726, to: 1749 }
+  - { name: Pakubuwana III, from: 1749, to: 1755, note: Continued as Susuhunan of Surakarta after 1755. }
+religions: [Sunni Islam, Javanese syncretism (kejawen)]
+events:
+  - { year: 1590, approx: true, text: "Senapati conquers Madiun." }
+  - { year: 1625, text: "Sultan Agung's forces take Surabaya after a long siege." }
+  - { year: 1628, text: "First Javanese siege of VOC Batavia (second in 1629); both fail." }
+  - { year: 1677, text: "Trunajaya's rebellion takes the capital Plered; the VOC helps restore Amangkurat II." }
+  - { year: 1705, text: "Priangan, Cirebon and Semarang are ceded to the VOC." }
+  - { year: 1743, text: "Pakubuwana II cedes the north coast and Madura's rights to the VOC." }
+  - { year: 1755, text: "Treaty of Giyanti divides Mataram into Yogyakarta and Surakarta." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008]
+predecessors: [demak]
+notes: >
+  Conquest dates follow Ricklefs; many are approximate. Temporary losses during the Trunajaya
+  rebellion (1674–1680) and later succession wars are not drawn.
+territory:
+  - from: 1587
+    to: 1755
+    grow_until: 1595
+    regions: [cj_interior]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1590
+    to: 1755
+    regions: [ej_madiun]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1600
+    to: 1755
+    regions: [cj_west]
+    boundary_type: approximate
+    confidence: low
+  - from: 1600
+    to: 1755
+    grow_until: 1617
+    regions: [ej_brantas]
+    boundary_type: approximate
+    confidence: low
+    note: Kediri and the upper Brantas; Pasuruan and Malang by about 1617.
+  - from: 1588
+    to: 1705
+    regions: [cj_semarang]
+    boundary_type: approximate
+    confidence: low
+  - from: 1588
+    to: 1743
+    grow_until: 1627
+    regions: [cj_demak, cj_lasem]
+    boundary_type: approximate
+    confidence: low
+    note: Demak early; Lasem 1616; Pati subdued 1627.
+  - from: 1619
+    to: 1743
+    regions: [ej_tuban]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1625
+    to: 1743
+    regions: [ej_surabaya_gresik]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1624
+    to: 1743
+    regions: [madura]
+    boundary_type: approximate
+    confidence: low
+  - from: 1617
+    to: 1743
+    regions: [ej_lumajang]
+    boundary_type: approximate
+    confidence: low
+  - from: 1620
+    to: 1677
+    regions: [wj_priangan, wj_cirebon]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Sumedang and Cirebon acknowledged Mataram's overlordship.

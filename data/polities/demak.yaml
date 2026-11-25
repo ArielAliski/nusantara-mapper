@@ -1,0 +1,87 @@
+id: demak
+name: Demak Sultanate
+names:
+  - { name: Kasultanan Demak, lang: Javanese }
+  - { name: Demak Bintoro, lang: Javanese }
+type: sultanate
+period:
+  start: { year: 1475, approx: true }
+  end: { year: 1554, approx: true }
+color: "#2f6db5"
+capitals:
+  - { name: Demak (Bintoro), from: 1475, to: 1554, coords: [110.64, -6.89] }
+summary: >
+  Demak was the first major Muslim state on Java. It grew from a north-coast port under Raden Patah
+  in the late 15th century and became the leading power among the pasisir trading towns. Under Sultan
+  Trenggana it conquered the remnant of Majapahit at Daha and campaigned across East Java, while
+  Demak-backed forces took Banten and Sunda Kelapa. Trenggana's death in 1546 was followed by
+  succession wars, and power passed inland to Pajang.
+rulers:
+  - { name: Raden Patah, from: 1475, to: 1518, approx: true }
+  - { name: Pati Unus (Adipati Yunus), from: 1518, to: 1521, approx: true }
+  - { name: Sultan Trenggana, from: 1521, to: 1546, approx: true }
+  - { name: Sunan Prawoto, from: 1546, to: 1549, approx: true }
+religions: [Sunni Islam]
+events:
+  - { year: 1475, approx: true, text: "Raden Patah establishes Demak as an independent Muslim polity (conventional date)." }
+  - { year: 1513, text: "Pati Unus leads a fleet against Portuguese Malacca; the attack fails." }
+  - { year: 1527, text: "Fatahillah takes Sunda Kelapa (renamed Jayakarta) with Demak's backing." }
+  - { year: 1527, approx: true, text: "Conquest of Daha, ending Majapahit (traditional date)." }
+  - { year: 1546, text: "Trenggana dies while besieging Panarukan in Blambangan." }
+  - { year: 1549, text: "Sunan Prawoto is killed by Arya Penangsang of Jipang; civil war follows." }
+emblem: null
+confidence: low
+sources: [degraaf_pigeaud1974, ricklefs2008, pires1944]
+predecessors: [majapahit]
+successors: [mataram_sultanate, banten]
+notes: >
+  The chronology of Demak relies largely on Javanese chronicles (babad) analysed by de Graaf and
+  Pigeaud, and many dates are approximate. The 1554 end date is a convention: the sultanate faded
+  during the succession wars after 1546, and Pajang was dominant by 1568.
+
+territory:
+  - from: 1475
+    to: 1554
+    grow_until: 1480
+    regions: [cj_demak]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1500
+    to: 1554
+    regions: [cj_semarang]
+    boundary_type: approximate
+    confidence: low
+    note: Extension along the north coast. "c. 1500" is an approximation.
+  - from: 1500
+    to: 1546
+    regions: [cj_lasem]
+    boundary_type: approximate
+    confidence: low
+    note: After 1546 the Blora area was the base of Arya Penangsang of Jipang, Demak's rival.
+  - from: 1527
+    to: 1546
+    grow_until: 1530
+    regions: [ej_brantas, ej_tuban, cj_interior]
+    boundary_type: approximate
+    confidence: low
+    note: Conquests of Daha and Tuban (1527). Hold on the interior after Trenggana's death is unclear.
+  - from: 1530
+    to: 1546
+    regions: [ej_madiun]
+    boundary_type: approximate
+    confidence: low
+    note: Madiun subdued c. 1529–1530.
+  - from: 1531
+    to: 1546
+    regions: [ej_surabaya_gresik]
+    boundary_type: approximate
+    confidence: low
+    note: Surabaya submitted in the early 1530s; the exact year is uncertain.
+  - from: 1527
+    to: 1546
+    regions: [banten_west, wj_north_coast, wj_cirebon]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: >
+      Banten and Sunda Kelapa were taken by Fatahillah with Demak's support, and Cirebon was an ally.
+      Banten became effectively independent under Hasanuddin, conventionally from 1552.

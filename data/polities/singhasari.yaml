@@ -1,0 +1,59 @@
+id: singhasari
+name: Singhasari
+names:
+  - { name: Tumapel }
+type: kingdom
+period:
+  start: { year: 1222 }
+  end: { year: 1292 }
+color: "#c26a3d"
+capitals:
+  - { name: Kutaraja / Singhasari (near Malang), from: 1222, to: 1292, coords: [112.66, -7.89] }
+summary: >
+  Singhasari was founded by Ken Arok of Tumapel, who defeated Kediri in 1222. Its last king,
+  Kertanegara, pursued an ambitious overseas policy. He sent the Pamalayu expedition to Sumatra in
+  1275, conquered Bali in 1284, and refused to submit to Kublai Khan. In 1292 he was killed by
+  Jayakatwang of Kediri. Kertanegara's son-in-law Raden Wijaya then founded Majapahit, using the
+  Mongol army sent to punish Kertanegara.
+rulers:
+  - { name: Ken Arok (Rajasa), from: 1222, to: 1227 }
+  - { name: Anusapati, from: 1227, to: 1248 }
+  - { name: Wisnuwardhana, from: 1248, to: 1268 }
+  - { name: Kertanegara, from: 1268, to: 1292 }
+religions: [Shaivism, Tantric Buddhism]
+events:
+  - { year: 1222, text: "Ken Arok defeats Kediri and founds the kingdom." }
+  - { year: 1275, text: "The Pamalayu expedition is sent to Malayu in Sumatra." }
+  - { year: 1284, text: "Conquest of Bali." }
+  - { year: 1286, text: "An Amoghapasa statue is sent to Dharmasraya (Padang Roco inscription)." }
+  - { year: 1292, text: "Kertanegara is killed by Jayakatwang of Kediri." }
+emblem: null
+confidence: medium
+sources: [coedes1968, ricklefs2008, munoz2006]
+predecessors: [kediri]
+successors: [majapahit]
+territory:
+  - from: 1222
+    to: 1292
+    grow_until: 1230
+    regions: [ej_brantas, ej_surabaya_gresik, ej_tuban, ej_madiun]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1269
+    to: 1292
+    regions: [madura]
+    boundary_type: approximate
+    confidence: low
+    note: Arya Wiraraja is installed at Sumenep (traditional date).
+  - from: 1284
+    to: 1292
+    regions: [bali]
+    boundary_type: approximate
+    confidence: low
+  - from: 1275
+    to: 1292
+    grow_from: 1270
+    regions: [jambi, west_sumatra]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Pamalayu expedition and ties to Malayu-Dharmasraya.

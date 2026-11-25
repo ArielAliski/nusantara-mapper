@@ -1,0 +1,38 @@
+id: timor_leste
+name: Timor-Leste
+names:
+  - { name: Repúblika Demokrátika Timór-Leste, lang: Tetum }
+  - { name: East Timor }
+type: state
+period:
+  start: { year: 2002 }
+  end: null
+color: "#3a9a5b"
+capitals:
+  - { name: Dili, from: 2002, coords: [125.57, -8.56] }
+summary: >
+  Timor-Leste became independent on 20 May 2002 after more than four centuries of Portuguese
+  colonial rule, Indonesian occupation (1975–1999) and UN transitional administration (1999–2002).
+  Its population voted overwhelmingly for independence in a UN-run referendum in August 1999.
+rulers:
+  - { name: Xanana Gusmão, from: 2002, to: 2007, note: President }
+  - { name: José Ramos-Horta, from: 2007, to: 2012 }
+  - { name: Taur Matan Ruak, from: 2012, to: 2017 }
+  - { name: Francisco Guterres, from: 2017, to: 2022 }
+  - { name: José Ramos-Horta, from: 2022 }
+religions: [Catholicism (majority), Protestantism, Islam]
+events:
+  - { year: 1975, text: "FRETILIN declares independence (28 November); Indonesian invasion follows (7 December)." }
+  - { year: 1999, text: "Independence referendum (30 August); UNTAET established (25 October)." }
+  - { year: 2002, text: "Independence (20 May)." }
+emblem: null
+confidence: high
+sources: [unscr1272, cribb_kahin2004]
+predecessors: [portuguese_timor, indonesia]
+notes: The UN transitional administration (UNTAET, 1999–2002) is not drawn.
+territory:
+  - from: 2002
+    to: null
+    regions: [east_timor]
+    boundary_type: documented
+    confidence: high

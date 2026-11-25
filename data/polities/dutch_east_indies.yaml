@@ -1,0 +1,274 @@
+id: dutch_east_indies
+name: Dutch East Indies
+names:
+  - { name: Nederlandsch-Indië, lang: Dutch }
+  - { name: Netherlands Indies }
+type: colony
+period:
+  start: { year: 1800 }
+  end: { year: 1942 }
+color: "#e89a3c"
+capitals:
+  - { name: Batavia, from: 1800, to: 1942, coords: [106.81, -6.13], note: "Buitenzorg (Bogor) was the governor-general's residence." }
+summary: >
+  When the VOC was dissolved, its possessions passed to the Dutch state. Apart from the British
+  interlude in Java (1811–1816), Dutch rule expanded through the 19th century: Java was fully
+  subdued after the Java War (1825–1830), and the outer islands were conquered or bound by treaties,
+  largely in a last wave of military campaigns between 1873 and about 1910 (Aceh, Bali, Lombok,
+  southern Sulawesi, Flores). Japan conquered the colony in March 1942.
+rulers:
+  - { name: Herman Willem Daendels, from: 1808, to: 1811, note: Governor-general }
+  - { name: Johannes van den Bosch, from: 1830, to: 1833, note: Introduced the Cultivation System }
+  - { name: J. B. van Heutsz, from: 1904, to: 1909, note: Led the final conquests }
+  - { name: A. W. L. Tjarda van Starkenborgh Stachouwer, from: 1936, to: 1942, note: Last pre-war governor-general }
+religions: [Islam (majority of population), Christianity, Hinduism (Bali), Buddhism]
+events:
+  - { year: 1800, text: "The Dutch state takes over the VOC's possessions." }
+  - { year: 1825, text: "Java War led by Prince Diponegoro (to 1830)." }
+  - { year: 1830, text: "The Cultivation System of forced cash-crop production is introduced on Java." }
+  - { year: 1837, text: "Fall of Bonjol ends the main phase of the Padri War in West Sumatra." }
+  - { year: 1849, text: "Conquest of north Bali (Buleleng and Jembrana)." }
+  - { year: 1860, text: "The Banjarmasin sultanate is abolished during the Banjar War." }
+  - { year: 1894, text: "Dutch expedition to Lombok." }
+  - { year: 1904, text: "Most of Aceh is under Dutch control after a war begun in 1873." }
+  - { year: 1906, text: "Puputan of Badung: the royal court of Badung dies resisting the Dutch (Tabanan falls the same year)." }
+  - { year: 1908, text: "Puputan of Klungkung completes the conquest of Bali." }
+  - { year: 1942, text: "The Dutch surrender to Japan (8 March)." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008, cribb_kahin2004, reid1969]
+unmapped:
+  - { from: 1811, to: 1816, note: "British occupation of Java and most Dutch posts (see British Java)." }
+predecessors: [voc]
+successors: [indonesia, netherlands_indies_postwar]
+notes: >
+  Dates of 'control' are when Dutch authority was established in the main centres; resistance and
+  indirect rule often continued. Many areas were governed through self-governing rulers under Dutch
+  suzerainty, shown as zones of influence. Gradual conquests are drawn as estimated growth.
+territory:
+  # ── Java ──
+  - from: 1800
+    to: 1811
+    regions: [batavia, wj_north_coast, wj_bogor, wj_priangan, wj_cirebon, cj_semarang, cj_demak, cj_lasem,
+              ej_tuban, ej_surabaya_gresik, madura, ej_blambangan, ej_lumajang]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1816
+    to: 1942
+    regions: [batavia, wj_north_coast, wj_bogor, wj_priangan, wj_cirebon, banten_west, cj_semarang, cj_demak,
+              cj_lasem, ej_tuban, ej_surabaya_gresik, madura, ej_blambangan, ej_lumajang]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1800
+    to: 1811
+    regions: [banten_west, cj_interior, ej_brantas, ej_madiun, cj_west]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Banten (to 1808) and the princely states of Yogyakarta and Surakarta.
+  - from: 1816
+    to: 1830
+    regions: [ej_brantas, ej_madiun, cj_west]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Outer provinces of the princely states, annexed after the Java War.
+  - from: 1830
+    to: 1942
+    regions: [ej_brantas, ej_madiun, cj_west]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1816
+    to: 1942
+    regions: [cj_interior]
+    boundary_type: zone_of_influence
+    confidence: medium
+    note: Yogyakarta and Surakarta remained self-governing princely states (vorstenlanden).
+
+  # ── Sumatra and nearby islands ──
+  - from: 1816
+    to: 1942
+    regions: [bangka_belitung]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1823
+    to: 1942
+    regions: [palembang]
+    boundary_type: approximate
+    confidence: medium
+    note: The Palembang sultanate was abolished in 1823 after expeditions in 1819–21.
+  - from: 1821
+    to: 1942
+    grow_until: 1837
+    regions: [west_sumatra]
+    boundary_type: approximate
+    confidence: medium
+    note: Padri War, 1821–1837.
+  - from: 1825
+    to: 1942
+    regions: [bengkulu]
+    boundary_type: approximate
+    confidence: medium
+    note: Exchanged by Britain for Malacca under the Anglo-Dutch Treaty of 1824.
+  - from: 1856
+    to: 1942
+    regions: [lampung]
+    boundary_type: approximate
+    confidence: low
+  - from: 1858
+    to: 1942
+    grow_until: 1907
+    regions: [jambi]
+    boundary_type: approximate
+    confidence: low
+    note: Partly annexed 1858; resistance by the sultan's party lasted until 1907.
+  - from: 1858
+    to: 1942
+    regions: [riau_mainland]
+    boundary_type: approximate
+    confidence: low
+    note: Siak treaty of 1858.
+  - from: 1824
+    to: 1911
+    regions: [riau_islands]
+    boundary_type: zone_of_influence
+    confidence: medium
+    note: Riau-Lingga sultanate under Dutch suzerainty; deposed in 1911.
+  - from: 1911
+    to: 1942
+    regions: [riau_islands]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1865
+    to: 1942
+    grow_until: 1907
+    regions: [north_sumatra]
+    boundary_type: approximate
+    confidence: low
+    note: East Sumatran plantation belt from the 1860s; Batak highlands by 1907.
+  - from: 1904
+    to: 1942
+    grow_from: 1874
+    ramp_seed: [97.2, 4.3]
+    ramp_reverse: true # mirror of Aceh's estimated decline: coast and capital first, Gayo highlands last
+    regions: [aceh]
+    boundary_type: approximate
+    confidence: medium
+    note: Kutaraja taken 1874; most of Aceh by 1904; guerrilla resistance until about 1912.
+
+  # ── Borneo ──
+  - from: 1818
+    to: 1854
+    regions: [west_kalimantan]
+    boundary_type: zone_of_influence
+    confidence: low
+  - from: 1854
+    to: 1942
+    regions: [west_kalimantan]
+    boundary_type: approximate
+    confidence: low
+    note: After the Kongsi Wars against the Chinese mining federations.
+  - from: 1826
+    to: 1860
+    regions: [south_kalimantan]
+    boundary_type: zone_of_influence
+    confidence: low
+  - from: 1860
+    to: 1942
+    regions: [south_kalimantan]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1860
+    to: 1942
+    grow_until: 1910
+    regions: [central_kalimantan]
+    boundary_type: approximate
+    confidence: low
+  - from: 1844
+    to: 1942
+    regions: [kutai, east_kalimantan_rest]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Kutai and other sultanates under Dutch suzerainty from the 1844 treaty.
+
+  # ── Bali, Nusa Tenggara ──
+  - from: 1849
+    to: 1942
+    regions: [bali_north]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1906
+    to: 1942
+    grow_until: 1908
+    regions: [bali_south]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1894
+    to: 1942
+    regions: [lombok]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1816
+    to: 1905
+    regions: [sumbawa]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Bima and Sumbawa sultanates bound by old VOC contracts.
+  - from: 1905
+    to: 1942
+    regions: [sumbawa]
+    boundary_type: approximate
+    confidence: low
+  - from: 1816
+    to: 1942
+    regions: [kupang_area]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1859
+    to: 1942
+    grow_until: 1910
+    regions: [ntt]
+    boundary_type: approximate
+    confidence: low
+    note: Portugal ceded its claims on Flores in 1859; Flores and Sumba were subdued 1907–1910.
+
+  # ── Sulawesi, Maluku, New Guinea ──
+  - from: 1816
+    to: 1942
+    regions: [makassar_area, north_sulawesi]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1816
+    to: 1905
+    regions: [south_sulawesi]
+    boundary_type: zone_of_influence
+    confidence: low
+  - from: 1905
+    to: 1942
+    grow_until: 1906
+    regions: [south_sulawesi]
+    boundary_type: approximate
+    confidence: medium
+    note: Bone and Gowa conquered 1905–06.
+  - from: 1905
+    to: 1942
+    grow_until: 1910
+    regions: [southeast_sulawesi, central_sulawesi]
+    boundary_type: approximate
+    confidence: low
+  - from: 1817
+    to: 1942
+    regions: [maluku]
+    boundary_type: approximate
+    confidence: medium
+    note: Returned by Britain in 1817; Pattimura's revolt the same year.
+  - from: 1817
+    to: 1942
+    regions: [north_maluku]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Ternate and Tidore sultanates under Dutch suzerainty.
+  - from: 1828
+    to: 1942
+    regions: [west_new_guinea]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Claimed from 1828; first permanent posts at Manokwari and Fakfak in 1898; the interior was largely unadministered.

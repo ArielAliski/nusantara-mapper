@@ -1,0 +1,37 @@
+id: kutai
+name: Kutai (Mulawarman's kingdom)
+names:
+  - { name: Kutai Martadipura, note: Later traditional name; not attested in the inscriptions }
+type: kingdom
+period:
+  start: { year: 350, approx: true }
+  end: { year: 500, approx: true }
+color: "#9a6b3f"
+capitals:
+  - { name: Muara Kaman (find site of the inscriptions), from: 350, to: 500, coords: [116.71, -0.19], approx: true }
+summary: >
+  The earliest dated writing in Indonesia consists of seven Sanskrit inscriptions on stone sacrificial
+  posts (yupa) found at Muara Kaman on the Mahakam river in East Kalimantan. Their script dates them to
+  around AD 400. They praise King Mulawarman, grandson of Kundungga, for lavish gifts to Brahmins,
+  including 20,000 cows. Nothing else is known of the kingdom's extent or history.
+rulers:
+  - { name: Kundungga, note: "Grandfather of Mulawarman, named in his inscriptions; has a non-Sanskrit name." }
+  - { name: Aswawarman, note: "Father of Mulawarman, called the founder of the dynasty in his inscriptions." }
+  - { name: Mulawarman, attested: 400, approx: true }
+religions: [Brahmanical Hinduism]
+events:
+  - { year: 400, approx: true, text: "Mulawarman's yupa inscriptions record Vedic sacrifices and gifts to Brahmins." }
+emblem: null
+confidence: low
+sources: [vogel1918, coedes1968, munoz2006]
+notes: >
+  The dates shown are a window around the epigraphic evidence (c. AD 400), not a known lifespan.
+  Links between this kingdom and the later Kutai Martadipura of tradition are not documented.
+  The polygon only marks the lower Mahakam area around the find site.
+
+territory:
+  - from: 350
+    to: 500
+    regions: [kutai]
+    boundary_type: approximate
+    confidence: low

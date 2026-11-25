@@ -1,0 +1,45 @@
+id: north_borneo
+name: British North Borneo
+names:
+  - { name: North Borneo Chartered Company territory, note: "1881–1946" }
+  - { name: Crown Colony of North Borneo, note: "1946–1963" }
+type: colony
+period:
+  start: { year: 1881 }
+  end: { year: 1963 }
+color: "#7a6db3"
+capitals:
+  - { name: Kudat, from: 1881, to: 1884, coords: [116.84, 6.88] }
+  - { name: Sandakan, from: 1884, to: 1946, coords: [118.07, 5.84] }
+  - { name: Jesselton (Kota Kinabalu), from: 1946, to: 1963, coords: [116.07, 5.98] }
+summary: >
+  Northern Borneo, claimed by the sultans of Brunei and Sulu, was leased to Western concession
+  holders in 1877–78 and administered by the British North Borneo Chartered Company from 1881; it was
+  a British protectorate from 1888. After the Japanese occupation it became a Crown colony in 1946
+  (absorbing Labuan), and in 1963 it joined Malaysia as Sabah.
+rulers: []
+religions: [Indigenous religions, Islam, Christianity]
+events:
+  - { year: 1881, text: "Royal charter granted to the British North Borneo Company." }
+  - { year: 1888, text: "North Borneo becomes a British protectorate." }
+  - { year: 1946, text: "North Borneo becomes a Crown colony." }
+  - { year: 1963, text: "North Borneo joins Malaysia as Sabah." }
+emblem: null
+confidence: medium
+sources: [andaya2017]
+successors: [malaysia]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: The Philippines maintains a historical claim to eastern Sabah, derived from the Sultanate of Sulu.
+territory:
+  - from: 1881
+    to: 1942
+    regions: [sabah]
+    boundary_type: approximate
+    confidence: medium
+    note: Labuan was a separate British colony until 1946.
+  - from: 1945
+    to: 1963
+    regions: [sabah]
+    boundary_type: documented
+    confidence: high

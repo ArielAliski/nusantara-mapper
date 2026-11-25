@@ -1,0 +1,50 @@
+id: malaysia
+name: Malaysia
+names:
+  - { name: Malaysia, lang: Malay }
+type: state
+period:
+  start: { year: 1963 }
+  end: null
+color: "#1f4e9c"
+capitals:
+  - { name: Kuala Lumpur, from: 1963, coords: [101.69, 3.14], note: Putrajaya has been the federal administrative centre since 1999. }
+summary: >
+  Malaysia was formed on 16 September 1963 by joining the Federation of Malaya (independent since
+  1957) with Singapore, Sarawak and North Borneo (Sabah). Indonesia opposed the federation in an armed
+  "Confrontation" (1963–1966). Singapore left in August 1965. Malaysia is a federal constitutional
+  monarchy whose king is elected in rotation from the hereditary rulers of nine Malay states.
+rulers:
+  - { name: Tunku Abdul Rahman, from: 1963, to: 1970, note: Prime minister (also of Malaya from 1957) }
+  - { name: Abdul Razak Hussein, from: 1970, to: 1976 }
+  - { name: Hussein Onn, from: 1976, to: 1981 }
+  - { name: Mahathir Mohamad, from: 1981, to: 2003 }
+  - { name: Abdullah Ahmad Badawi, from: 2003, to: 2009 }
+  - { name: Najib Razak, from: 2009, to: 2018 }
+  - { name: Mahathir Mohamad, from: 2018, to: 2020 }
+  - { name: Muhyiddin Yassin, from: 2020, to: 2021 }
+  - { name: Ismail Sabri Yaakob, from: 2021, to: 2022 }
+  - { name: Anwar Ibrahim, from: 2022 }
+religions: [Islam (official), Buddhism, Christianity, Hinduism, Chinese folk religion]
+events:
+  - { year: 1957, text: "Independence of the Federation of Malaya (31 August)." }
+  - { year: 1963, text: "Formation of Malaysia (16 September); Indonesian Confrontation begins." }
+  - { year: 1965, text: "Singapore separates from Malaysia (9 August)." }
+  - { year: 1966, text: "End of the Confrontation." }
+emblem: null
+confidence: high
+sources: [andaya2017, malaysia_agreement1963, sg_independence1965]
+predecessors: [malaya, singapore_colony, sarawak_colony, north_borneo]
+
+territory:
+  - from: 1963
+    to: null
+    countries: [MYS]
+    boundary_type: documented
+    confidence: high
+  - from: 1963
+    to: 1965
+    regions: [singapore]
+    boundary_type: documented
+    confidence: high
+    note: Singapore was a state of Malaysia from 16 September 1963 to 9 August 1965.

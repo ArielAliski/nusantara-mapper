@@ -1,0 +1,12 @@
+# Non-linear time slider. Each segment gets a share of the slider width.
+# Years use the project convention: negative = BC, positive = AD, there is no year 0.
+# `play_speed` is in years per second while the Play button is active.
+# Keyboard steps are always 1 year (Shift = 10, PageUp/PageDown = 100).
+min: -1500
+max: 2026
+segments:
+  - { from: -1500, to: 1,    share: 0.12, play_speed: 60 }
+  - { from: 1,     to: 1300, share: 0.23, play_speed: 30 }
+  - { from: 1300,  to: 1800, share: 0.27, play_speed: 8 }
+  - { from: 1800,  to: 1945, share: 0.23, play_speed: 4 }
+  - { from: 1945,  to: 2026, share: 0.15, play_speed: 2 }

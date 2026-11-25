@@ -1,0 +1,34 @@
+id: buni
+name: Buni complex
+names:
+  - { name: Buni culture }
+type: cultural_zone
+period:
+  start: { year: -400, approx: true }
+  end: { year: 100, approx: true }
+color: "#8a7f5a"
+capitals: []
+summary: >
+  The Buni complex is an archaeological culture of the north coast of West Java. It is known from
+  burial sites in the Bekasi and Karawang area that contain distinctive pottery, beads and metal
+  objects. Finds of Indian rouletted ware show trade contacts with South Asia in the early centuries
+  AD. It was a culture, not a state: no rulers or political organisation are known.
+rulers: []
+religions: [Unknown]
+events:
+  - { year: -400, approx: true, text: "Approximate start of the Buni pottery tradition." }
+emblem: null
+confidence: low
+sources: [bellwood2007, munoz2006]
+notes: >
+  Shown as a cultural zone, not a polity. Dating is based on a small number of excavated sites,
+  and the area shown is a rough approximation.
+
+territory:
+  - from: -400
+    to: 100
+    grow_until: -300
+    shrink_from: 50
+    regions: [wj_north_coast]
+    boundary_type: cultural_zone
+    confidence: low

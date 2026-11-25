@@ -1,0 +1,45 @@
+id: philippines
+name: Philippines
+names:
+  - { name: Republika ng Pilipinas, lang: Filipino }
+type: state
+period:
+  start: { year: 1946 }
+  end: null
+color: "#7a5aa6"
+capitals:
+  - { name: Manila, from: 1946, to: 1948, coords: [120.98, 14.60] }
+  - { name: Quezon City, from: 1948, to: 1976, coords: [121.04, 14.68] }
+  - { name: Manila, from: 1976, coords: [120.98, 14.60] }
+summary: >
+  The Philippines became independent from the United States on 4 July 1946. Only its southern part
+  (Mindanao, the Sulu Archipelago and Palawan) falls within the Nusantara region this map focuses on.
+  There, the Muslim sultanates of Sulu and Maguindanao long resisted Spanish and later American rule.
+  The Bangsamoro Autonomous Region was created in 2019.
+rulers:
+  - { name: Manuel Roxas, from: 1946, to: 1948, note: President }
+  - { name: Elpidio Quirino, from: 1948, to: 1953 }
+  - { name: Ramon Magsaysay, from: 1953, to: 1957 }
+  - { name: Carlos P. Garcia, from: 1957, to: 1961 }
+  - { name: Diosdado Macapagal, from: 1961, to: 1965 }
+  - { name: Ferdinand Marcos, from: 1965, to: 1986 }
+  - { name: Corazon Aquino, from: 1986, to: 1992 }
+  - { name: Fidel V. Ramos, from: 1992, to: 1998 }
+  - { name: Joseph Estrada, from: 1998, to: 2001 }
+  - { name: Gloria Macapagal Arroyo, from: 2001, to: 2010 }
+  - { name: Benigno Aquino III, from: 2010, to: 2016 }
+  - { name: Rodrigo Duterte, from: 2016, to: 2022 }
+  - { name: Ferdinand Marcos Jr., from: 2022 }
+religions: [Catholicism (majority), Islam, Protestantism]
+events:
+  - { year: 1946, text: "Independence (4 July)." }
+  - { year: 2019, text: "Bangsamoro Autonomous Region in Muslim Mindanao established." }
+emblem: null
+confidence: high
+sources: [manila1946]
+territory:
+  - from: 1946
+    to: null
+    regions: [philippines]
+    boundary_type: documented
+    confidence: high

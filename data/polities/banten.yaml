@@ -1,0 +1,57 @@
+id: banten
+name: Banten Sultanate
+names:
+  - { name: Kesultanan Banten, lang: Indonesian }
+type: sultanate
+period:
+  start: { year: 1527 }
+  end: { year: 1813 }
+color: "#b8893a"
+capitals:
+  - { name: Banten Lama (Surosowan), from: 1527, to: 1813, coords: [106.15, -6.04] }
+summary: >
+  Banten was established when Demak-backed forces under Fatahillah took the Sundanese ports in
+  1527. Under Hasanuddin, its first sultan, it became independent, and in 1579 it destroyed the Sunda
+  capital Pakuan. Banten grew rich on pepper from western Java and Lampung and was the first port the
+  Dutch reached in 1596. After a civil war in 1682–84 the VOC made it a vassal. Daendels and Raffles
+  ended its independence in 1808–1813.
+rulers:
+  - { name: Maulana Hasanuddin, from: 1552, to: 1570, approx: true }
+  - { name: Maulana Yusuf, from: 1570, to: 1580, approx: true }
+  - { name: Sultan Ageng Tirtayasa, from: 1651, to: 1683 }
+religions: [Sunni Islam]
+events:
+  - { year: 1527, text: "Fatahillah takes Banten and Sunda Kelapa." }
+  - { year: 1552, approx: true, text: "Hasanuddin rules as the first sultan, independent of Demak." }
+  - { year: 1579, text: "Banten captures Pakuan Pajajaran, ending the Sunda Kingdom." }
+  - { year: 1682, text: "Civil war between Sultan Ageng and his son; the VOC intervenes (to 1684)." }
+  - { year: 1808, text: "Daendels annexes the Banten lowlands." }
+  - { year: 1813, text: "Raffles abolishes the sultanate." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008, degraaf_pigeaud1974]
+predecessors: [sunda, demak]
+territory:
+  - from: 1527
+    to: 1813
+    regions: [banten_west]
+    boundary_type: approximate
+    confidence: medium
+    note: Under Demak's overlordship until about 1552; a VOC vassal from 1684.
+  - from: 1527
+    to: 1619
+    regions: [wj_north_coast]
+    boundary_type: approximate
+    confidence: low
+    note: Jayakarta, taken by the VOC in 1619.
+  - from: 1579
+    to: 1684
+    regions: [wj_bogor]
+    boundary_type: approximate
+    confidence: low
+  - from: 1552
+    to: 1808
+    regions: [lampung]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Pepper-producing dependency across the Sunda Strait.

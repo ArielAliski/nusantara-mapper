@@ -1,0 +1,150 @@
+id: majapahit
+name: Majapahit
+names:
+  - { name: Wilwatikta, lang: Old Javanese, note: Name used in the Nagarakretagama and inscriptions }
+type: kingdom
+period:
+  start: { year: 1293 }
+  end: { year: 1527, approx: true }
+color: "#b5452f"
+capitals:
+  - { name: Trowulan, from: 1293, to: 1478, coords: [112.38, -7.56], note: Identified with the Trowulan archaeological site. }
+  - { name: Daha (Kediri), from: 1478, to: 1527, coords: [112.01, -7.82], approx: true }
+summary: >
+  Majapahit was a Hindu–Buddhist kingdom founded in 1293 in the Brantas valley of East Java by
+  Raden Wijaya, who turned a Mongol (Yuan) invasion force against his rival in Kediri and then drove
+  it out. Under King Hayam Wuruk and his chief minister Gajah Mada in the mid-14th century it became
+  the leading power of the archipelago, and the court poem Nagarakretagama (1365) claims tributaries
+  from Sumatra to western New Guinea. After a succession war (1404–1406) and the rise of Malacca and the
+  Muslim port states of Java's north coast it lost its overseas reach and coastal provinces; the court
+  moved to Daha after 1478 and is conventionally said to have fallen to Demak around 1527.
+rulers:
+  - { name: Kertarajasa Jayawardhana (Raden Wijaya), from: 1293, to: 1309 }
+  - { name: Jayanagara, from: 1309, to: 1328 }
+  - { name: Tribhuwana Wijayatunggadewi, from: 1328, to: 1350, note: Queen regnant }
+  - { name: Rajasanagara (Hayam Wuruk), from: 1350, to: 1389 }
+  - { name: Wikramawardhana, from: 1389, to: 1429 }
+  - { name: Suhita, from: 1429, to: 1447, note: Queen regnant }
+  - { name: Kertawijaya, from: 1447, to: 1451 }
+  - { name: Rajasawardhana, from: 1451, to: 1453 }
+  - { name: Girishawardhana, from: 1456, to: 1466, note: Preceded by an interregnum (1453–1456) }
+  - { name: Singhawikramawardhana (Suraprabhawa), from: 1466, to: 1474, approx: true }
+  - { name: Girindrawardhana (Ranawijaya), from: 1474, to: 1519, approx: true, note: Late chronology is uncertain; known from the Jiyu inscriptions of 1486. }
+religions: [Shaivism, Buddhism]
+events:
+  - { year: 1293, text: "Raden Wijaya uses the Yuan expedition to defeat Jayakatwang of Kediri, then expels the Yuan army and is crowned." }
+  - { year: 1336, approx: true, text: "Gajah Mada's Palapa oath to unite the archipelago (date per the Pararaton)." }
+  - { year: 1343, text: "Conquest of Bali." }
+  - { year: 1357, text: "Bubat incident: the Sundanese royal party is killed at Majapahit. Expedition against Dompo on Sumbawa." }
+  - { year: 1365, text: "Prapanca completes the Nagarakretagama, listing the realm's claimed tributaries." }
+  - { year: 1377, text: "Punitive expedition against Palembang." }
+  - { year: 1389, text: "Death of Hayam Wuruk. An eastern court under Bhre Wirabhumi becomes a rival centre." }
+  - { year: 1404, text: "Paregreg civil war between the western and eastern courts (to 1406)." }
+  - { year: 1478, text: "Fall of Trowulan, remembered in the chronogram 'sirna ilang kertaning bhumi'. The court continues at Daha." }
+  - { year: 1527, approx: true, text: "Demak conquers Daha; conventional end of Majapahit." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008, pigeaud1960, coedes1968, munoz2006, degraaf_pigeaud1974, pires1944]
+predecessors: [singhasari]
+successors: [demak]
+notes: >
+  Direct rule is drawn as approximate regions built from modern regencies. The overseas
+  "tributary" zones show places claimed in the Nagarakretagama (1365). That is a court poem;
+  the nature of these ties (tribute, trade, nominal claim) is debated, so they are drawn as
+  low-confidence zones of influence, not territory.
+
+territory:
+  # ── Javanese heartland ──
+  - from: 1293
+    to: 1527
+    grow_until: 1305
+    regions: [ej_brantas, ej_tuban, ej_madiun, cj_interior]
+    boundary_type: approximate
+    confidence: medium
+    note: >
+      Royal domain and appanages. Titles such as Bhre Pajang and Bhre Mataram indicate
+      Central Javanese appanages. Pires (c. 1513) describes Tuban as still loyal to the inland king.
+  - from: 1293
+    to: 1527
+    regions: [madura]
+    boundary_type: approximate
+    confidence: low
+  - from: 1293
+    to: 1389
+    regions: [ej_lumajang, ej_blambangan]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1406
+    to: 1527
+    regions: [ej_lumajang, ej_blambangan]
+    boundary_type: approximate
+    confidence: low
+    note: Reunited after the Paregreg war. How firmly the far east was held in the 15th century is uncertain.
+  - from: 1293
+    to: 1475
+    grow_until: 1305
+    regions: [cj_demak]
+    boundary_type: approximate
+    confidence: medium
+    note: Demak broke away under Raden Patah, conventionally c. 1475.
+  - from: 1293
+    to: 1500
+    grow_until: 1305
+    shrink_from: 1478
+    regions: [ej_surabaya_gresik, cj_semarang, cj_lasem]
+    boundary_type: approximate
+    confidence: low
+    note: >
+      By Pires' time (c. 1513) these north-coast ports were held by Muslim lords who acted
+      independently of the inland king. "c. 1500" is an approximate cut-off, not a dated event.
+  - from: 1293
+    to: 1500
+    grow_until: 1310
+    shrink_from: 1478
+    regions: [cj_west]
+    boundary_type: approximate
+    confidence: low
+    note: >
+      The western limit is uncertain. Tradition puts the Sunda–Java border at the Cipamali
+      river (Brebes). The c. 1500 end date is approximate.
+  - from: 1343
+    to: 1527
+    regions: [bali]
+    boundary_type: approximate
+    confidence: medium
+    note: >
+      Conquered 1343, then ruled by a Majapahit-installed Javanese dynasty (Samprangan, later Gelgel).
+      When Bali became fully independent is uncertain, probably in the late 15th or early 16th century.
+
+  # ── Overseas claims ──
+  - from: 1357
+    to: 1406
+    regions: [sumbawa]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Expedition against Dompo in 1357.
+  - from: 1365
+    to: 1400
+    grow_from: 1336
+    shrink_from: 1389
+    regions: [palembang, jambi, bangka_belitung, lampung, west_sumatra, riau_mainland, riau_islands,
+              north_sumatra, aceh, melaka, negeri_sembilan, selangor, perak, kedah, pahang, johor,
+              singapore, terengganu, kelantan, patani]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: >
+      Sumatran and Malay Peninsula places named as tributaries in Nagarakretagama cantos 13–14.
+      The c. 1400 end is approximate. It reflects the founding of Malacca under Ming protection and
+      Palembang falling under the Chinese adventurer Chen Zuyi.
+  - from: 1365
+    to: 1406
+    grow_from: 1336
+    shrink_from: 1389
+    regions: [west_kalimantan, central_kalimantan, south_kalimantan, kutai, east_kalimantan_rest,
+              brunei, sarawak, lombok, ntt, east_timor, south_sulawesi, southeast_sulawesi,
+              central_sulawesi, maluku, north_maluku, papua_onin]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: >
+      Borneo, Lesser Sunda, Sulawesi, Maluku and western New Guinea places named in
+      Nagarakretagama canto 14. The end date (after the Paregreg war) is approximate.

@@ -1,0 +1,34 @@
+id: netherlands_new_guinea
+name: Netherlands New Guinea
+names:
+  - { name: Nederlands-Nieuw-Guinea, lang: Dutch }
+type: colony
+period:
+  start: { year: 1949 }
+  end: { year: 1962 }
+color: "#b97a3f"
+capitals:
+  - { name: Hollandia (Jayapura), from: 1949, to: 1962, coords: [140.70, -2.53] }
+summary: >
+  Western New Guinea was excluded from the 1949 transfer of sovereignty and remained a Dutch colony
+  while Indonesia pressed its claim. The Dutch prepared it for self-determination: a New Guinea
+  Council was installed in 1961, and the Morning Star flag was first raised. After Indonesian military
+  pressure and US mediation, the New York Agreement of 1962 handed the territory to UN administration
+  (UNTEA) and then, in May 1963, to Indonesia.
+rulers: []
+religions: [Christianity, Indigenous religions]
+events:
+  - { year: 1961, text: "The New Guinea Council is installed; the Morning Star flag is raised (1 December)." }
+  - { year: 1962, text: "New York Agreement (15 August); UN administration begins in October." }
+emblem: null
+confidence: high
+sources: [nyagreement1962, ricklefs2008]
+predecessors: [netherlands_indies_postwar]
+successors: [indonesia]
+notes: UN Temporary Executive Authority (UNTEA) administration from October 1962 to May 1963 is not drawn.
+territory:
+  - from: 1949
+    to: 1962
+    regions: [west_new_guinea]
+    boundary_type: documented
+    confidence: high

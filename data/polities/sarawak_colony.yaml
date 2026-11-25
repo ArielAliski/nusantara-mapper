@@ -1,0 +1,30 @@
+id: sarawak_colony
+name: Crown Colony of Sarawak
+names: []
+type: colony
+period:
+  start: { year: 1946 }
+  end: { year: 1963 }
+color: "#c2709a"
+capitals:
+  - { name: Kuching, from: 1946, to: 1963, coords: [110.34, 1.55] }
+summary: >
+  Sarawak was a British Crown colony from 1946, when the last Brooke Rajah ceded it, until it joined
+  Malaysia in 1963. The cession was opposed by an anti-cession movement, whose members assassinated
+  Governor Duncan Stewart in 1949.
+rulers: []
+religions: [Christianity, Islam, Indigenous religions]
+events:
+  - { year: 1949, text: "Governor Duncan Stewart is assassinated by anti-cession activists." }
+  - { year: 1963, text: "Sarawak joins Malaysia." }
+emblem: null
+confidence: high
+sources: [andaya2017]
+predecessors: [sarawak_brooke]
+successors: [malaysia]
+territory:
+  - from: 1946
+    to: 1963
+    regions: [sarawak]
+    boundary_type: documented
+    confidence: high

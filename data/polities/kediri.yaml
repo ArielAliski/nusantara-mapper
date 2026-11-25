@@ -1,0 +1,45 @@
+id: kediri
+name: Kediri
+names:
+  - { name: Panjalu, lang: Old Javanese }
+  - { name: Daha }
+type: kingdom
+period:
+  start: { year: 1045, approx: true }
+  end: { year: 1222 }
+color: "#6b8e4e"
+capitals:
+  - { name: Daha (Kediri), from: 1045, to: 1222, coords: [112.01, -7.82], approx: true }
+summary: >
+  Kediri (Panjalu) was the western of the two kingdoms created by Airlangga's division of his
+  realm. It became the dominant power in East Java in the 12th century, a period known for its Old
+  Javanese literature, such as the Kakawin Bharatayuddha of 1157 under King Jayabaya. Chinese
+  writers of the time describe Java as a wealthy trading power. Kediri fell in 1222, when Ken Arok of
+  Tumapel defeated King Kertajaya.
+rulers:
+  - { name: Jayabaya, from: 1135, to: 1157, approx: true }
+  - { name: Kertajaya, to: 1222, note: Last king; defeated at Ganter. }
+religions: [Shaivism, Vaishnavism]
+events:
+  - { year: 1157, text: "The Kakawin Bharatayuddha is completed under Jayabaya." }
+  - { year: 1222, text: "Battle of Ganter: Ken Arok defeats Kertajaya." }
+emblem: null
+confidence: low
+sources: [coedes1968, munoz2006]
+predecessors: [kahuripan]
+successors: [singhasari]
+notes: >
+  The eastern sister kingdom, Janggala, is not mapped separately; it seems to have been absorbed by
+  Kediri during the 12th century. Extents are rough.
+territory:
+  - from: 1045
+    to: 1222
+    regions: [ej_brantas, ej_madiun]
+    boundary_type: approximate
+    confidence: low
+  - from: 1135
+    to: 1222
+    regions: [ej_surabaya_gresik, ej_tuban]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Former Janggala lands and the north coast; date of absorption uncertain.

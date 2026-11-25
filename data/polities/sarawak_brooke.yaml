@@ -1,0 +1,50 @@
+id: sarawak_brooke
+name: Raj of Sarawak
+names:
+  - { name: Sarawak under the Brooke Rajahs }
+type: kingdom
+period:
+  start: { year: 1841 }
+  end: { year: 1946 }
+color: "#b04a7a"
+capitals:
+  - { name: Kuching, from: 1841, to: 1946, coords: [110.34, 1.55] }
+summary: >
+  In 1841 the Sultan of Brunei made the English adventurer James Brooke Rajah of Sarawak, then a
+  small territory around Kuching. Brooke and his successors expanded north-east at Brunei's expense
+  in a series of cessions until 1905, building the state that became modern Sarawak. Britain made it
+  a protectorate in 1888. After the Japanese occupation, the last Rajah ceded Sarawak to the British
+  Crown in 1946.
+rulers:
+  - { name: James Brooke, from: 1841, to: 1868 }
+  - { name: Charles Brooke, from: 1868, to: 1917 }
+  - { name: Charles Vyner Brooke, from: 1917, to: 1946 }
+religions: [Indigenous religions, Christianity, Islam]
+events:
+  - { year: 1841, text: "James Brooke becomes Rajah of Sarawak." }
+  - { year: 1888, text: "Sarawak becomes a British protectorate." }
+  - { year: 1890, text: "Annexation of Limbang, splitting Brunei in two." }
+  - { year: 1905, text: "Lawas is acquired; Sarawak reaches its modern borders." }
+  - { year: 1946, text: "Cession to the British Crown." }
+emblem: null
+confidence: medium
+sources: [runciman1960, andaya2017]
+successors: [sarawak_colony]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: >
+  Sarawak grew from the Kuching area (1841) through cessions in 1853, 1861, 1882, 1885, 1890 and
+  1905. The base map has Sarawak only as one unit, so the documented view shows the whole state from
+  1841 (overstated before 1905); the estimated view draws the growth from Kuching outward.
+territory:
+  - from: 1841
+    to: 1942
+    grow_until: 1905
+    regions: [sarawak]
+    boundary_type: approximate
+    confidence: low
+  - from: 1945
+    to: 1946
+    regions: [sarawak]
+    boundary_type: documented
+    confidence: high

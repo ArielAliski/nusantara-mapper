@@ -1,0 +1,14 @@
+# Quick-jump markers on the time slider.
+# `year` is where the slider jumps to. Eras without mapped polities yet are still listed;
+# the map shows a notice when nothing is mapped for the selected year.
+- { id: early, label: Early cultures, year: -200, description: Bronze–Iron Age coastal cultures such as the Buni complex. }
+- { id: early_states, label: Early kingdoms, year: 450, description: "Kutai and Tarumanagara, known from the earliest dated inscriptions in the archipelago." }
+- { id: srivijaya, label: Srivijaya, year: 800, description: Maritime power centred on Palembang. }
+- { id: mataram, label: Mataram (Medang), year: 850, description: Central Javanese kingdom; builders of Borobudur and Prambanan. }
+- { id: majapahit, label: Majapahit, year: 1365, description: Year the Nagarakretagama was written. }
+- { id: sultanates, label: Sultanates, year: 1500, description: "Malacca, Demak and the spread of Islamic polities." }
+- { id: voc, label: VOC, year: 1700, description: Dutch East India Company period. }
+- { id: dei, label: Dutch East Indies, year: 1890, description: Colonial state after the VOC's dissolution (1799). }
+- { id: japan, label: Japanese occupation, year: 1943, description: 1942–1945. }
+- { id: independence, label: Independence, year: 1950, description: Indonesian sovereignty recognised December 1949. }
+- { id: present, label: Present, year: 2026, description: Modern states. }

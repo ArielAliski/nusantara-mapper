@@ -1,0 +1,52 @@
+id: sunda
+name: Sunda Kingdom
+names:
+  - { name: Pajajaran, note: "Name used for the kingdom in its later period, after its capital Pakuan Pajajaran" }
+type: kingdom
+period:
+  start: { year: 932, approx: true }
+  end: { year: 1579 }
+color: "#4e8f8a"
+capitals:
+  - { name: Kawali (Galuh), from: 1371, to: 1482, coords: [108.36, -7.19], approx: true, note: "Traditional dates (reign of Niskala Wastu Kancana)." }
+  - { name: Pakuan Pajajaran (near Bogor), from: 1482, to: 1579, coords: [106.81, -6.60] }
+summary: >
+  The Sunda Kingdom ruled western Java for centuries; the name Sunda first appears in the Kebon Kopi
+  II inscription of 932. It remained Hindu–Buddhist and independent of Majapahit; the Bubat incident
+  of 1357, in which the Sundanese royal party was killed at Majapahit, is remembered in both
+  traditions. In 1522 its king signed a treaty with the Portuguese. It lost its ports to Demak-backed
+  Banten in 1527, and its capital Pakuan fell to Banten in 1579.
+rulers:
+  - { name: Niskala Wastu Kancana, from: 1371, to: 1475, approx: true }
+  - { name: Sri Baduga Maharaja, from: 1482, to: 1521, approx: true }
+religions: [Hinduism, Buddhism, Sundanese traditional religion]
+events:
+  - { year: 932, approx: true, text: "Kebon Kopi II inscription mentions the 'king of Sunda'." }
+  - { year: 1482, approx: true, text: "Sri Baduga Maharaja rules from Pakuan Pajajaran." }
+  - { year: 1522, text: "Treaty with the Portuguese; the padrão stone is erected at Sunda Kelapa." }
+  - { year: 1579, text: "Pakuan Pajajaran falls to Banten." }
+emblem: null
+confidence: low
+sources: [ricklefs2008, munoz2006, coedes1968]
+successors: [banten]
+notes: >
+  Early Sundanese history is poorly documented and partly based on later manuscripts. The start
+  date is the first appearance of the name, not a founding date. The extents shown are rough.
+territory:
+  - from: 932
+    to: 1579
+    regions: [wj_priangan, wj_bogor]
+    boundary_type: approximate
+    confidence: low
+  - from: 932
+    to: 1527
+    regions: [wj_north_coast, banten_west]
+    boundary_type: approximate
+    confidence: low
+    note: Ports including Sunda Kelapa and Banten, lost to Demak-backed forces in 1527.
+  - from: 932
+    to: 1479
+    regions: [wj_cirebon]
+    boundary_type: approximate
+    confidence: low
+    note: Cirebon became an independent Muslim port around 1479 (approximate).

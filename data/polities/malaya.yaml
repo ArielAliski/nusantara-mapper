@@ -1,0 +1,37 @@
+id: malaya
+name: Federation of Malaya
+names:
+  - { name: Malayan Union, note: "1946–1948" }
+  - { name: Persekutuan Tanah Melayu, lang: Malay }
+type: state
+period:
+  start: { year: 1946 }
+  end: { year: 1963 }
+color: "#2a5ea8"
+capitals:
+  - { name: Kuala Lumpur, from: 1946, to: 1963, coords: [101.69, 3.14] }
+summary: >
+  In 1946 Britain combined the Malay states with Penang and Malacca as the Malayan Union. Malay
+  opposition, led by the new UMNO party, forced its replacement by the Federation of Malaya in 1948.
+  The communist insurgency known as the Malayan Emergency began the same year. Malaya became
+  independent on 31 August 1957 under Tunku Abdul Rahman, and in 1963 it joined Singapore, Sarawak
+  and North Borneo to form Malaysia.
+rulers:
+  - { name: Tunku Abdul Rahman, from: 1957, to: 1963, note: Prime minister }
+religions: [Islam (official), Buddhism, Hinduism, Christianity, Chinese folk religion]
+events:
+  - { year: 1946, text: "The Malayan Union is formed; UMNO is founded in opposition." }
+  - { year: 1948, text: "The Federation of Malaya replaces the Union; the Malayan Emergency begins." }
+  - { year: 1957, text: "Independence (31 August)." }
+  - { year: 1960, text: "The Emergency is declared over." }
+emblem: null
+confidence: high
+sources: [andaya2017]
+predecessors: [british_malaya, straits_settlements]
+successors: [malaysia]
+territory:
+  - from: 1946
+    to: 1963
+    regions: [perak, selangor, negeri_sembilan, pahang, johor, kedah_perlis, kelantan, terengganu, penang, melaka]
+    boundary_type: documented
+    confidence: high

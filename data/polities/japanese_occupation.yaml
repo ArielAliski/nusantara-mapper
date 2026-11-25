@@ -1,0 +1,43 @@
+id: japanese_occupation
+name: Japanese occupation
+names:
+  - { name: Empire of Japan }
+type: empire
+period:
+  start: { year: 1942 }
+  end: { year: 1945 }
+color: "#6b6b6b"
+capitals:
+  - { name: Singapore (Syonan-to), from: 1942, to: 1945, coords: [103.85, 1.29], note: "Seat of the Southern Army; Java and Sumatra had separate military administrations." }
+summary: >
+  Between December 1941 and March 1942 Japan conquered British Malaya, Singapore, Borneo, the
+  Philippines, Portuguese Timor and the Dutch East Indies. Java, Sumatra and the eastern islands were
+  administered separately by the army and navy. The occupation brought forced labour (romusha),
+  famine and brutality, but also mobilised nationalist leaders. Japan surrendered in August 1945, two
+  days before Indonesia proclaimed independence.
+rulers: []
+religions: []
+events:
+  - { year: 1942, text: "Fall of Singapore (15 February); the Dutch East Indies surrender (8 March)." }
+  - { year: 1944, text: "Allied forces retake western New Guinea." }
+  - { year: 1945, text: "Japan surrenders (15 August)." }
+emblem: null
+confidence: high
+sources: [ricklefs2008, andaya2017]
+notes: >
+  Shown as military occupation. The year granularity hides that the invasion began in December 1941
+  and that liberation came at different times; western New Guinea was largely retaken by Allied forces
+  during 1944.
+territory:
+  - from: 1942
+    to: 1945
+    countries: [IDN, MYS, SGP, BRN, TLS, PHL]
+    except_regions: [west_new_guinea]
+    boundary_type: occupation
+    confidence: high
+  - from: 1942
+    to: 1944
+    regions: [west_new_guinea]
+    boundary_type: occupation
+    confidence: low
+    note: Japanese garrisons held parts of the coast; much of the interior was never occupied.

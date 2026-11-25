@@ -1,0 +1,33 @@
+id: brunei
+name: Brunei Darussalam
+names:
+  - { name: Negara Brunei Darussalam, lang: Malay }
+type: state
+period:
+  start: { year: 1984 }
+  end: null
+color: "#e3b400"
+capitals:
+  - { name: Bandar Seri Begawan, from: 1984, coords: [114.94, 4.89] }
+summary: >
+  Brunei regained full independence from Britain on 1 January 1984. It is an absolute monarchy ruled
+  by a sultanate going back to at least the 15th century. The sultanate once controlled much of the
+  north Borneo coast but had shrunk to its present two enclaves by 1890. It was a British protectorate
+  from 1888.
+rulers:
+  - { name: Sultan Hassanal Bolkiah, from: 1984, note: Sultan since 1967 }
+religions: [Sunni Islam (official), Buddhism, Christianity]
+events:
+  - { year: 1888, text: "Becomes a British protectorate." }
+  - { year: 1962, text: "Brunei Revolt." }
+  - { year: 1984, text: "Full independence (1 January)." }
+emblem: null
+confidence: high
+sources: [brunei1979, andaya2017]
+predecessors: [brunei_protectorate]
+territory:
+  - from: 1984
+    to: null
+    regions: [brunei]
+    boundary_type: documented
+    confidence: high

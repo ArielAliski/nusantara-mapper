@@ -1,0 +1,250 @@
+# Historical building-block regions.
+#
+# Each region is a named group of modern admin units from data/base/units.geojson.
+# Polity territories (data/polities/*.yaml) are written as "which regions did this polity
+# hold, from which year to which year", and the build dissolves them into polygons.
+#
+# IMPORTANT: modern admin borders are only a convenient approximation of historical
+# extents. A region boundary is never evidence of a historical border.
+#
+# Selectors (combined as a union, then `exclude` is removed):
+#   units:     unit ids, e.g. "IDN:mojokerto", "IDN:kota_mojokerto", "MYS:kedah"
+#   provinces: "<country>/<province name>", e.g. "IDN/Bali"
+#   countries: ISO3 codes, e.g. "SGP"
+#   exclude:   unit ids to drop
+#
+# Run `npm run data -- --list-units` to print every unit id.
+
+# ───────────────────────────── Java ─────────────────────────────
+ej_brantas:
+  name: Brantas basin (East Java interior)
+  units: [IDN:mojokerto, IDN:kota_mojokerto, IDN:jombang, IDN:kediri, IDN:kota_kediri, IDN:nganjuk,
+          IDN:blitar, IDN:kota_blitar, IDN:tulungagung, IDN:trenggalek, IDN:malang, IDN:kota_malang,
+          IDN:kota_batu, IDN:sidoarjo, IDN:pasuruan, IDN:kota_pasuruan]
+ej_surabaya_gresik:
+  name: Surabaya–Gresik coast
+  units: [IDN:kota_surabaya, IDN:gresik, IDN:lamongan]
+ej_tuban:
+  name: Tuban–Bojonegoro
+  units: [IDN:tuban, IDN:bojonegoro]
+ej_madiun:
+  name: Madiun–Ponorogo (western East Java)
+  units: [IDN:madiun, IDN:kota_madiun, IDN:magetan, IDN:ngawi, IDN:ponorogo, IDN:pacitan]
+ej_lumajang:
+  name: Lumajang–Probolinggo–Jember
+  units: [IDN:probolinggo, IDN:kota_probolinggo, IDN:lumajang, IDN:jember]
+ej_blambangan:
+  name: Blambangan (eastern tip of Java)
+  units: [IDN:bondowoso, IDN:situbondo, IDN:banyuwangi]
+madura:
+  name: Madura
+  units: [IDN:bangkalan, IDN:sampang, IDN:pamekasan, IDN:sumenep]
+
+cj_demak:
+  name: Demak–Jepara–Kudus–Pati
+  units: [IDN:demak, IDN:kudus, IDN:jepara, IDN:pati, IDN:grobogan, IDN:wadung_kedungombo]
+cj_lasem:
+  name: Rembang–Lasem–Blora
+  units: [IDN:rembang, IDN:blora]
+cj_semarang:
+  name: Semarang–Kendal
+  units: [IDN:kota_semarang, IDN:semarang, IDN:kendal, IDN:kota_salatiga, IDN:hutan]
+cj_interior:
+  name: South-central Java interior (Mataram plain, Pajang, Kedu)
+  provinces: [IDN/Yogyakarta]
+  units: [IDN:klaten, IDN:boyolali, IDN:sukoharjo, IDN:kota_surakarta, IDN:karanganyar, IDN:wonogiri,
+          IDN:sragen, IDN:magelang, IDN:kota_magelang, IDN:temanggung, IDN:wonosobo, IDN:purworejo,
+          IDN:kebumen]
+cj_west:
+  name: Western Central Java (Banyumas, Pekalongan, Tegal)
+  units: [IDN:banyumas, IDN:cilacap, IDN:purbalingga, IDN:banjarnegara, IDN:pekalongan,
+          IDN:kota_pekalongan, IDN:batang, IDN:pemalang, IDN:tegal, IDN:kota_tegal, IDN:brebes]
+
+wj_north_coast:
+  name: Jakarta–Bekasi–Karawang coast
+  provinces: [IDN/Jakarta Raya]
+  units: [IDN:bekasi, IDN:kota_bekasi, IDN:karawang, IDN:kota_depok, IDN:tangerang, IDN:kota_tangerang,
+          IDN:kota_tangerang_selatan]
+wj_bogor:
+  name: Bogor
+  units: [IDN:bogor, IDN:kota_bogor]
+banten_west:
+  name: Western Banten (Serang, Pandeglang, Lebak)
+  units: [IDN:serang, IDN:kota_serang, IDN:kota_cilegon, IDN:pandeglang, IDN:lebak]
+wj_priangan:
+  name: Priangan (West Java highlands)
+  units: [IDN:bandung, IDN:bandung_barat, IDN:kota_bandung, IDN:kota_cimahi, IDN:cianjur, IDN:sukabumi,
+          IDN:kota_sukabumi, IDN:garut, IDN:tasikmalaya, IDN:kota_tasikmalaya, IDN:ciamis, IDN:kota_banjar,
+          IDN:pangandaran, IDN:sumedang, IDN:purwakarta, IDN:subang, IDN:waduk_cirata]
+wj_cirebon:
+  name: Cirebon–Indramayu
+  units: [IDN:cirebon, IDN:kota_cirebon, IDN:indramayu, IDN:kuningan, IDN:majalengka]
+
+# ─────────────────────── Lesser Sunda Islands ───────────────────────
+bali:
+  name: Bali
+  provinces: [IDN/Bali]
+lombok:
+  name: Lombok
+  units: [IDN:lombok_barat, IDN:lombok_tengah, IDN:lombok_timur, IDN:lombok_utara, IDN:kota_mataram]
+sumbawa:
+  name: Sumbawa (incl. Dompu and Bima)
+  units: [IDN:sumbawa, IDN:sumbawa_barat, IDN:dompu, IDN:bima, IDN:kota_bima]
+ntt:
+  name: Nusa Tenggara Timur (Flores, Sumba, West Timor, Alor)
+  provinces: [IDN/Nusa Tenggara Timur]
+east_timor:
+  name: East Timor (incl. Oecusse)
+  countries: [TLS]
+
+# ───────────────────────────── Sumatra ─────────────────────────────
+palembang:
+  name: Palembang and the Musi basin (South Sumatra)
+  provinces: [IDN/Sumatera Selatan]
+jambi:
+  name: Jambi (Batang Hari basin)
+  provinces: [IDN/Jambi]
+bangka_belitung:
+  name: Bangka and Belitung
+  provinces: [IDN/Bangka-Belitung]
+lampung:
+  name: Lampung
+  provinces: [IDN/Lampung]
+bengkulu:
+  name: Bengkulu
+  provinces: [IDN/Bengkulu]
+west_sumatra:
+  name: West Sumatra (Minangkabau highlands)
+  provinces: [IDN/Sumatera Barat]
+riau_mainland:
+  name: Riau mainland (Siak, Kampar, Indragiri, Rokan)
+  provinces: [IDN/Riau]
+riau_islands:
+  name: Riau–Lingga Islands
+  provinces: [IDN/Kepulauan Riau]
+north_sumatra:
+  name: North Sumatra
+  provinces: [IDN/Sumatera Utara]
+aceh:
+  name: Aceh
+  provinces: [IDN/Aceh]
+
+# ─────────────────────────── Borneo ───────────────────────────
+kutai:
+  name: Kutai (lower Mahakam)
+  units: [IDN:kutai_kartanegara, IDN:kota_samarinda]
+east_kalimantan_rest:
+  name: East and North Kalimantan (excluding lower Mahakam)
+  provinces: [IDN/Kalimantan Timur]
+  exclude: [IDN:kutai_kartanegara, IDN:kota_samarinda]
+south_kalimantan:
+  name: South Kalimantan (Banjar)
+  provinces: [IDN/Kalimantan Selatan]
+central_kalimantan:
+  name: Central Kalimantan
+  provinces: [IDN/Kalimantan Tengah]
+west_kalimantan:
+  name: West Kalimantan
+  provinces: [IDN/Kalimantan Barat]
+brunei:
+  name: Brunei
+  countries: [BRN]
+sarawak:
+  name: Sarawak
+  units: [MYS:sarawak]
+sabah:
+  name: Sabah and Labuan
+  units: [MYS:sabah, MYS:labuan]
+
+# ─────────────────────── Sulawesi, Maluku, Papua ───────────────────────
+south_sulawesi:
+  name: South and West Sulawesi
+  provinces: [IDN/Sulawesi Selatan, IDN/Sulawesi Barat]
+southeast_sulawesi:
+  name: Southeast Sulawesi (incl. Buton)
+  provinces: [IDN/Sulawesi Tenggara]
+central_sulawesi:
+  name: Central Sulawesi (incl. Banggai)
+  provinces: [IDN/Sulawesi Tengah]
+north_sulawesi:
+  name: North Sulawesi and Gorontalo
+  provinces: [IDN/Sulawesi Utara, IDN/Gorontalo]
+maluku:
+  name: Central and southern Maluku (Ambon, Seram, Banda)
+  provinces: [IDN/Maluku]
+north_maluku:
+  name: North Maluku (Ternate, Tidore, Halmahera)
+  provinces: [IDN/Maluku Utara]
+papua_onin:
+  name: Onin and Kaimana coast (western New Guinea)
+  units: [IDN:fakfak, IDN:kaimana]
+west_new_guinea:
+  name: Western New Guinea (Papua, West Papua)
+  provinces: [IDN/Papua, IDN/Papua Barat]
+
+# ───────────────────────── Malay Peninsula ─────────────────────────
+melaka:
+  name: Melaka
+  units: [MYS:melaka]
+negeri_sembilan:
+  name: Negeri Sembilan
+  units: [MYS:negeri_sembilan]
+selangor:
+  name: Selangor and Kuala Lumpur
+  units: [MYS:selangor, MYS:kuala_lumpur, MYS:putrajaya]
+perak:
+  name: Perak
+  units: [MYS:perak]
+kedah:
+  name: Kedah, Perlis and Penang
+  units: [MYS:kedah, MYS:perlis, MYS:pulau_pinang]
+pahang:
+  name: Pahang
+  units: [MYS:pahang]
+johor:
+  name: Johor
+  units: [MYS:johor]
+singapore:
+  name: Singapore
+  countries: [SGP]
+terengganu:
+  name: Terengganu
+  units: [MYS:terengganu]
+kelantan:
+  name: Kelantan
+  units: [MYS:kelantan]
+patani:
+  name: Patani region (Pattani, Yala, Narathiwat, Songkhla)
+  units: [THA:pattani, THA:yala, THA:narathiwat, THA:songkhla]
+ligor:
+  name: Nakhon Si Thammarat and the Bay of Bandon (Ligor, Chaiya)
+  units: [THA:nakhon_si_thammarat, THA:surat_thani, THA:phatthalung]
+
+# ─────────────────────────── Philippines ───────────────────────────
+philippines:
+  name: Philippines (whole country)
+  countries: [PHL]
+
+# ─────────────────────── Finer sub-regions (colonial era) ───────────────────────
+# These overlap the broader regions above on purpose; a polity may use either.
+batavia:
+  name: Batavia (Jakarta)
+  provinces: [IDN/Jakarta Raya]
+kupang_area:
+  name: Kupang (western tip of Timor)
+  units: [IDN:kupang, IDN:kota_kupang]
+makassar_area:
+  name: Makassar and Gowa
+  units: [IDN:kota_makassar, IDN:gowa, IDN:takalar, IDN:maros]
+bali_north:
+  name: North and west Bali (Buleleng, Jembrana)
+  units: [IDN:buleleng, IDN:jembrana]
+bali_south:
+  name: South and east Bali
+  units: [IDN:badung, IDN:kota_denpasar, IDN:gianyar, IDN:tabanan, IDN:klungkung, IDN:bangli, IDN:karang_asem]
+penang:
+  name: Penang
+  units: [MYS:pulau_pinang]
+kedah_perlis:
+  name: Kedah and Perlis
+  units: [MYS:kedah, MYS:perlis]

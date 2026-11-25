@@ -1,0 +1,34 @@
+id: singapore
+name: Singapore
+names:
+  - { name: Republic of Singapore }
+  - { name: Singapura, lang: Malay }
+type: state
+period:
+  start: { year: 1965 }
+  end: null
+color: "#e0607e"
+capitals:
+  - { name: Singapore, from: 1965, coords: [103.85, 1.29] }
+summary: >
+  Singapore became an independent republic on 9 August 1965, after less than two years as a state of
+  Malaysia. A British trading post from 1819 and part of the Straits Settlements, it grew into one of
+  the world's busiest ports and a major financial centre.
+rulers:
+  - { name: Lee Kuan Yew, from: 1965, to: 1990, note: Prime minister (also of self-governing Singapore from 1959) }
+  - { name: Goh Chok Tong, from: 1990, to: 2004 }
+  - { name: Lee Hsien Loong, from: 2004, to: 2024 }
+  - { name: Lawrence Wong, from: 2024 }
+religions: [Buddhism, Christianity, Islam, Taoism, Hinduism]
+events:
+  - { year: 1965, text: "Independence (9 August)." }
+emblem: null
+confidence: high
+sources: [sg_independence1965, andaya2017]
+predecessors: [malaysia, singapore_colony]
+territory:
+  - from: 1965
+    to: null
+    regions: [singapore]
+    boundary_type: documented
+    confidence: high

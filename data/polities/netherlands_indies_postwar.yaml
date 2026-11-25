@@ -1,0 +1,47 @@
+id: netherlands_indies_postwar
+name: Netherlands Indies (post-war)
+names:
+  - { name: NICA (Netherlands Indies Civil Administration) }
+type: colony
+period:
+  start: { year: 1945 }
+  end: { year: 1949 }
+color: "#c98b4a"
+capitals:
+  - { name: Batavia, from: 1945, to: 1949, coords: [106.81, -6.13] }
+summary: >
+  After Japan's surrender, Dutch authorities returned behind British forces and tried to restore
+  colonial rule against the Indonesian Republic. They regained the eastern islands and Borneo first,
+  where they created federal states such as the State of East Indonesia (1946), and they occupied
+  large parts of Java and Sumatra in military offensives in 1947 and 1948. International pressure led
+  to the transfer of sovereignty in December 1949, except for western New Guinea.
+rulers:
+  - { name: Hubertus van Mook, from: 1945, to: 1948, note: Lieutenant governor-general }
+religions: []
+events:
+  - { year: 1946, text: "Malino and Denpasar conferences; the State of East Indonesia is created." }
+  - { year: 1947, text: "First Dutch military offensive ('police action') in Java and Sumatra." }
+  - { year: 1948, text: "Second offensive; Yogyakarta is captured and Republican leaders arrested." }
+  - { year: 1949, text: "Round Table Conference; sovereignty is transferred on 27 December." }
+emblem: null
+confidence: low
+sources: [ricklefs2008, cribb_kahin2004]
+predecessors: [dutch_east_indies]
+successors: [indonesia, netherlands_new_guinea]
+notes: >
+  Only areas outside Java and Sumatra are drawn. Dutch-held cities and the areas taken in the 1947–48
+  offensives in Java and Sumatra are not mapped yet, so the Republic's zone there is shown alone.
+territory:
+  - from: 1945
+    to: 1949
+    grow_until: 1946
+    regions: [west_kalimantan, south_kalimantan, central_kalimantan, kutai, east_kalimantan_rest,
+              south_sulawesi, southeast_sulawesi, central_sulawesi, north_sulawesi, maluku, north_maluku,
+              bali, lombok, sumbawa, ntt, bangka_belitung, riau_islands]
+    boundary_type: approximate
+    confidence: low
+  - from: 1945
+    to: 1949
+    regions: [west_new_guinea]
+    boundary_type: zone_of_influence
+    confidence: low

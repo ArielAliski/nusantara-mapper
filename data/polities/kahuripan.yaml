@@ -1,0 +1,36 @@
+id: kahuripan
+name: Kahuripan
+names:
+  - { name: Airlangga's kingdom }
+type: kingdom
+period:
+  start: { year: 1019 }
+  end: { year: 1045, approx: true }
+color: "#a0785a"
+capitals:
+  - { name: Kahuripan (exact site unknown), from: 1019, to: 1045, coords: [112.70, -7.45], approx: true }
+summary: >
+  After the collapse of Medang, Airlangga, a prince with Balinese roots, was consecrated king in
+  1019 and spent the following decades reconquering East Java. His Pucangan (Calcutta Stone)
+  inscription recounts these campaigns. Before his death he divided the realm between two heirs,
+  creating Janggala and Panjalu (Kediri) around 1045.
+rulers:
+  - { name: Airlangga, from: 1019, to: 1045, approx: true }
+religions: [Shaivism, Vaishnavism, Buddhism]
+events:
+  - { year: 1019, text: "Airlangga is consecrated king." }
+  - { year: 1041, approx: true, text: "Pucangan inscription records Airlangga's reconquest of East Java." }
+  - { year: 1045, approx: true, text: "The kingdom is divided into Janggala and Panjalu (Kediri)." }
+emblem: null
+confidence: low
+sources: [coedes1968, munoz2006]
+predecessors: [medang]
+successors: [kediri]
+notes: The extent shown is the Brantas valley and the coast around Surabaya; Airlangga's campaigns grew it gradually.
+territory:
+  - from: 1019
+    to: 1045
+    grow_until: 1037
+    regions: [ej_brantas, ej_surabaya_gresik]
+    boundary_type: approximate
+    confidence: low

@@ -1,0 +1,138 @@
+:root {
+  --bg: #e9eef1;
+  --text: #1d2329;
+  --text-muted: #5b6670;
+  --panel: rgb(255 255 255 / 0.94);
+  --surface: #ffffff;
+  --surface-2: #f1f3f5;
+  --border: #d6dce1;
+  --chip: #eef1f4;
+  --accent: #b5452f;
+  --on-accent: #ffffff;
+  --link: #1d5fa8;
+  --track: #d3dae0;
+  --track-alt: #c2cbd3;
+  --legend-sample: #8a5a44;
+  --shadow: 0 4px 18px rgb(20 30 40 / 0.14);
+  --conf-high: #1c6b3a;
+  --conf-high-bg: #dcf1e3;
+  --conf-med: #8a5a00;
+  --conf-med-bg: #fbecc8;
+  --conf-low: #a3332a;
+  --conf-low-bg: #f8dcd8;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0f1c26;
+    --text: #eef1f4;
+    --text-muted: #9aa6b1;
+    --panel: rgb(26 30 34 / 0.94);
+    --surface: #23282d;
+    --surface-2: #2c3238;
+    --border: #3a424a;
+    --chip: #2c3238;
+    --accent: #e0775f;
+    --on-accent: #1a1a1a;
+    --link: #8cbcf0;
+    --track: #3a424a;
+    --track-alt: #4a535c;
+    --legend-sample: #e0a080;
+    --shadow: 0 4px 18px rgb(0 0 0 / 0.45);
+    --conf-high: #8fdcaa;
+    --conf-high-bg: #1d3a28;
+    --conf-med: #f2c76b;
+    --conf-med-bg: #3d3115;
+    --conf-low: #f29a90;
+    --conf-low-bg: #43211e;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0f1c26;
+  --text: #eef1f4;
+  --text-muted: #9aa6b1;
+  --panel: rgb(26 30 34 / 0.94);
+  --surface: #23282d;
+  --surface-2: #2c3238;
+  --border: #3a424a;
+  --chip: #2c3238;
+  --accent: #e0775f;
+  --on-accent: #1a1a1a;
+  --link: #8cbcf0;
+  --track: #3a424a;
+  --track-alt: #4a535c;
+  --legend-sample: #e0a080;
+  --shadow: 0 4px 18px rgb(0 0 0 / 0.45);
+  --conf-high: #8fdcaa;
+  --conf-high-bg: #1d3a28;
+  --conf-med: #f2c76b;
+  --conf-med-bg: #3d3115;
+  --conf-low: #f29a90;
+  --conf-low-bg: #43211e;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.maplibregl-ctrl-group {
+  background: var(--surface) !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top-color: var(--border) !important;
+}
+:root[data-theme='dark'] .maplibregl-ctrl-icon,
+:root:not([data-theme='light']) .maplibregl-ctrl-icon {
+  filter: var(--ctrl-icon-filter, none);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --ctrl-icon-filter: invert(1);
+  }
+}
+:root[data-theme='dark'] {
+  --ctrl-icon-filter: invert(1);
+}
+
+/* Keep map attribution clear of the floating time bar. */
+:root .maplibregl-ctrl-bottom-right {
+  bottom: calc(var(--bar-h, 150px) + 34px);
+}
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}

@@ -1,0 +1,76 @@
+id: british_malaya
+name: Protected Malay States
+names:
+  - { name: British Malaya, note: "Informal name, usually including the Straits Settlements" }
+  - { name: Federated and Unfederated Malay States }
+type: protectorate
+period:
+  start: { year: 1874 }
+  end: { year: 1946 }
+color: "#5a7fa8"
+capitals:
+  - { name: Kuala Lumpur (Federated Malay States), from: 1896, to: 1946, coords: [101.69, 3.14] }
+summary: >
+  From the Pangkor Treaty of 1874, Britain placed Residents at the courts of the western Malay states
+  to 'advise' their sultans. Perak, Selangor, Negeri Sembilan and Pahang were joined as the Federated
+  Malay States in 1895–96. Kedah, Perlis, Kelantan and Terengganu passed from Siamese to British
+  overlordship in 1909, and Johor accepted a General Adviser in 1914. These became the Unfederated
+  Malay States. Tin and rubber made the region one of the most profitable parts of the British Empire.
+rulers: []
+religions: [Sunni Islam, Buddhism, Hinduism, Chinese folk religion]
+events:
+  - { year: 1874, text: "Pangkor Treaty: a British Resident is accepted in Perak." }
+  - { year: 1875, text: "Perak War after the killing of Resident J. W. W. Birch." }
+  - { year: 1895, text: "Treaty of Federation creates the Federated Malay States (in force 1896)." }
+  - { year: 1909, text: "Anglo-Siamese Treaty: Kedah, Perlis, Kelantan and Terengganu pass to Britain." }
+  - { year: 1914, text: "Johor accepts a British General Adviser." }
+emblem: null
+confidence: high
+sources: [andaya2017]
+successors: [malaya]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: >
+  The Malay sultanates remained sovereign in law; British control was exercised through Residents
+  and Advisers. Before 1909 the northern states were Siamese tributaries, which are not mapped yet.
+territory:
+  - from: 1874
+    to: 1942
+    regions: [perak, selangor]
+    boundary_type: documented
+    confidence: high
+  - from: 1874
+    to: 1942
+    grow_until: 1895
+    ramp_seed: [101.94, 2.72]
+    regions: [negeri_sembilan]
+    boundary_type: documented
+    confidence: medium
+    note: Sungai Ujong from 1874; the confederation of Negeri Sembilan was completed in 1895.
+  - from: 1888
+    to: 1942
+    regions: [pahang]
+    boundary_type: documented
+    confidence: high
+  - from: 1885
+    to: 1914
+    regions: [johor]
+    boundary_type: zone_of_influence
+    confidence: medium
+    note: Treaty of 1885; Johor kept considerable independence until 1914.
+  - from: 1914
+    to: 1942
+    regions: [johor]
+    boundary_type: documented
+    confidence: high
+  - from: 1909
+    to: 1942
+    regions: [kedah_perlis, kelantan, terengganu]
+    boundary_type: documented
+    confidence: high
+  - from: 1945
+    to: 1946
+    regions: [perak, selangor, negeri_sembilan, pahang, johor, kedah_perlis, kelantan, terengganu]
+    boundary_type: documented
+    confidence: high
+    note: British Military Administration after the Japanese surrender.

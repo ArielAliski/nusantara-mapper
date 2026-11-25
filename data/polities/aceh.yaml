@@ -1,0 +1,68 @@
+id: aceh
+name: Aceh Sultanate
+names:
+  - { name: Kesultanan Aceh Darussalam, lang: Malay }
+type: sultanate
+period:
+  start: { year: 1496, approx: true }
+  end: { year: 1904, approx: true }
+color: "#2f7d6d"
+capitals:
+  - { name: Kutaraja (Banda Aceh), from: 1496, to: 1874, coords: [95.32, 5.55] }
+summary: >
+  Aceh rose in northern Sumatra in the early 16th century. Under Ali Mughayat Syah it absorbed Pidie
+  and Pasai and became a centre of Islamic learning and the pepper trade, rivalling Portuguese
+  Malacca. Under Iskandar Muda (1607–1636) it dominated both shores of the Strait of Malacca. It was
+  later ruled by four queens in succession (1641–1699). The Netherlands invaded in 1873, beginning one
+  of the longest colonial wars. The sultan surrendered in 1903, though resistance continued for years.
+rulers:
+  - { name: Ali Mughayat Syah, from: 1514, to: 1530, approx: true }
+  - { name: Alauddin al-Kahhar, from: 1537, to: 1571, approx: true }
+  - { name: Iskandar Muda, from: 1607, to: 1636 }
+  - { name: Iskandar Thani, from: 1636, to: 1641 }
+  - { name: Taj ul-Alam Safiatuddin, from: 1641, to: 1675, note: First of four reigning queens }
+  - { name: Muhammad Daud Syah, from: 1874, to: 1903, note: Last sultan }
+religions: [Sunni Islam]
+events:
+  - { year: 1524, approx: true, text: "Aceh absorbs Pasai and Pidie." }
+  - { year: 1612, text: "Iskandar Muda conquers Deli (Aru)." }
+  - { year: 1629, text: "Aceh's great fleet is destroyed besieging Portuguese Malacca." }
+  - { year: 1873, text: "The Netherlands declares war on Aceh." }
+  - { year: 1874, text: "Dutch forces take the capital, Kutaraja." }
+  - { year: 1903, text: "Sultan Muhammad Daud Syah surrenders." }
+emblem: null
+confidence: medium
+sources: [reid1969, ricklefs2008, andaya2017]
+successors: [dutch_east_indies]
+notes: >
+  The documented view shows Aceh's territory until the sultan's surrender (1903–04). In reality the
+  Dutch held the capital from 1874 and expanded slowly; the estimated view draws that shift
+  gradually, coast first.
+territory:
+  - from: 1496
+    to: 1873
+    grow_until: 1530
+    regions: [aceh]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1873
+    to: 1904
+    shrink_from: 1874
+    ramp_seed: [97.2, 4.3]
+    regions: [aceh]
+    boundary_type: approximate
+    confidence: medium
+    note: Under Dutch attack; resistance held longest in the interior (Gayo highlands).
+  - from: 1612
+    to: 1641
+    regions: [north_sumatra]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Aru/Deli conquered in 1612.
+  - from: 1617
+    to: 1641
+    grow_from: 1613
+    regions: [pahang, kedah_perlis, perak]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Iskandar Muda's campaigns on the Malay Peninsula (Pahang 1617, Kedah 1619, Perak 1620).

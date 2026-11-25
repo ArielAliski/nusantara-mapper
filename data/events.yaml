@@ -1,0 +1,23 @@
+# Region-wide events shown in the "What's happening" feed, alongside each polity's own events.
+# Fields: year (required), approx, text (required), polity (optional id it relates to), sources.
+# Keep to well-established events; mark uncertain dates with `approx: true`.
+
+- { year: -1500, approx: true, text: "Austronesian-speaking farming communities are spreading through the islands (c. 2000–1500 BC).", sources: [bellwood2007] }
+- { year: -300, approx: true, text: "Bronze drums of the Dong Son tradition from northern Vietnam begin to reach the archipelago.", sources: [bellwood2007] }
+- { year: 414, text: "The Chinese monk Faxian, sailing home from Sri Lanka, stops in 'Yepoti' (Java or Borneo)." }
+- { year: 1292, text: "Marco Polo stops in northern Sumatra on his voyage home from China.", sources: [ricklefs2008] }
+- { year: 1297, text: "Gravestone of Sultan Malik al-Salih of Samudra Pasai: earliest dated Muslim ruler in the archipelago.", sources: [ricklefs2008] }
+- { year: 1345, text: "Ibn Battuta visits Samudra Pasai in northern Sumatra.", sources: [ricklefs2008] }
+- { year: 1405, text: "First of Zheng He's Ming treasure-fleet voyages (to 1433), which call at Java, Sumatra and Malacca.", sources: [andaya2017] }
+- { year: 1512, text: "Portuguese ships reach the Banda Islands and Maluku, the source of nutmeg and cloves.", sources: [ricklefs2008] }
+- { year: 1521, text: "Survivors of Magellan's expedition reach Tidore in Maluku.", sources: [ricklefs2008] }
+- { year: 1596, text: "The first Dutch expedition, under Cornelis de Houtman, reaches Banten.", sources: [ricklefs2008] }
+- { year: 1815, text: "Eruption of Mount Tambora on Sumbawa, the largest volcanic eruption in recorded history.", sources: [cribb_kahin2004] }
+- { year: 1824, text: "Anglo-Dutch Treaty divides the Malay world into British and Dutch spheres along the Strait of Malacca.", sources: [andaya2017] }
+- { year: 1883, text: "Eruption of Krakatoa in the Sunda Strait.", sources: [cribb_kahin2004] }
+- { year: 1908, text: "Founding of Budi Utomo, an early Indonesian nationalist organisation.", sources: [ricklefs2008] }
+- { year: 1928, text: "The Youth Pledge (Sumpah Pemuda): one motherland, one nation, one language: Indonesia.", sources: [ricklefs2008] }
+- { year: 1955, text: "The Asian–African Conference is held in Bandung.", sources: [ricklefs2008] }
+- { year: 1965, text: "The 30 September Movement is followed by mass killings in Indonesia (1965–66).", sources: [ricklefs2008] }
+- { year: 1967, text: "ASEAN is founded by Indonesia, Malaysia, the Philippines, Singapore and Thailand.", sources: [andaya2017] }
+- { year: 2004, text: "The Indian Ocean earthquake and tsunami devastates Aceh." }

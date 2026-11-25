@@ -1,0 +1,32 @@
+id: singapore_colony
+name: Colony of Singapore
+names:
+  - { name: State of Singapore, note: "Self-governing from 1959" }
+type: colony
+period:
+  start: { year: 1946 }
+  end: { year: 1963 }
+color: "#d77a9a"
+capitals:
+  - { name: Singapore, from: 1946, to: 1963, coords: [103.85, 1.29] }
+summary: >
+  Singapore was separated from the other Straits Settlements in 1946 and governed as a separate
+  British Crown colony. It gained internal self-government in 1959, with Lee Kuan Yew as prime
+  minister, and joined Malaysia in 1963.
+rulers:
+  - { name: Lee Kuan Yew, from: 1959, to: 1963, note: Prime minister of self-governing Singapore }
+religions: [Buddhism, Christianity, Islam, Taoism, Hinduism]
+events:
+  - { year: 1959, text: "Singapore becomes self-governing." }
+  - { year: 1963, text: "Singapore joins Malaysia." }
+emblem: null
+confidence: high
+sources: [andaya2017]
+predecessors: [straits_settlements]
+successors: [malaysia]
+territory:
+  - from: 1946
+    to: 1963
+    regions: [singapore]
+    boundary_type: documented
+    confidence: high

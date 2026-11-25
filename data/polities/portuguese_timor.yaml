@@ -1,0 +1,54 @@
+id: portuguese_timor
+name: Portuguese Timor
+names:
+  - { name: Timor Português, lang: Portuguese }
+type: colony
+period:
+  start: { year: 1702 }
+  end: { year: 1975 }
+color: "#6a8f3a"
+capitals:
+  - { name: Lifau (Oecusse), from: 1702, to: 1769, coords: [124.35, -9.20] }
+  - { name: Dili, from: 1769, to: 1975, coords: [125.57, -8.56] }
+summary: >
+  Portuguese traders and Dominican missionaries were active on Solor and Timor from the 16th century,
+  and a governor was installed at Lifau in 1702. Rivalry with the Dutch at Kupang divided the island.
+  The 1859 Treaty of Lisbon and a 1914 arbitral award fixed the border that still separates East
+  Timor from Indonesian West Timor. Japan occupied the colony in 1942–1945. Portuguese rule ended
+  with the decolonisation crisis of 1974–75 and the Indonesian invasion.
+rulers: []
+religions: [Catholicism, Indigenous religions]
+events:
+  - { year: 1702, text: "First Portuguese governor installed at Lifau." }
+  - { year: 1769, text: "The capital moves to Dili." }
+  - { year: 1859, text: "Treaty of Lisbon divides Timor between Portugal and the Netherlands." }
+  - { year: 1914, text: "Arbitral award settles the remaining border disputes." }
+  - { year: 1975, text: "Portuguese administration withdraws amid civil conflict." }
+emblem: null
+confidence: medium
+sources: [gunn1999]
+successors: [timor_leste]
+unmapped:
+  - { from: 1942, to: 1945, note: "Japanese occupation." }
+notes: Before 1859 Portuguese authority over the interior rested on alliances with local rulers.
+territory:
+  - from: 1702
+    to: 1859
+    regions: [east_timor]
+    boundary_type: approximate
+    confidence: low
+  - from: 1859
+    to: 1914
+    regions: [east_timor]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1914
+    to: 1942
+    regions: [east_timor]
+    boundary_type: documented
+    confidence: high
+  - from: 1945
+    to: 1975
+    regions: [east_timor]
+    boundary_type: documented
+    confidence: high

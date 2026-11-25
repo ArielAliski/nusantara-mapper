@@ -1,0 +1,49 @@
+id: tarumanagara
+name: Tarumanagara
+names:
+  - { name: Tārumānagara, lang: Sanskrit }
+  - { name: To-lo-mo, lang: Chinese, note: "多羅磨; probable identification in Chinese records" }
+type: kingdom
+period:
+  start: { year: 400, approx: true }
+  end: { year: 669, approx: true }
+color: "#3f7f8c"
+capitals: []
+summary: >
+  Tarumanagara is known mainly from seven Sanskrit inscriptions of King Purnawarman, found around
+  Bogor, Jakarta and Banten and dated by their script to the 5th century. They celebrate his conquests
+  and compare his footprints to those of Vishnu. The Tugu inscription records the digging of a canal
+  more than 11 km long. Chinese records of embassies from "To-lo-mo" between 528 and 669 probably
+  refer to the same kingdom.
+rulers:
+  - { name: Purnawarman, attested: 450, approx: true, note: "5th century; exact reign unknown." }
+religions: [Hinduism (Vaishnavism)]
+events:
+  - { year: 450, approx: true, text: "Purnawarman's inscriptions (Ciaruteun, Kebon Kopi, Jambu, Pasir Awi, Muara Cianten, Tugu, Cidanghiyang)." }
+  - { year: 528, text: "First recorded embassy from To-lo-mo to China." }
+  - { year: 669, text: "Last recorded embassy from To-lo-mo." }
+emblem: null
+confidence: low
+sources: [vogel1925, coedes1968, munoz2006]
+successors: [sunda]
+notes: >
+  The start and end dates bracket the epigraphic and Chinese evidence; they are not known founding or
+  end dates. Detailed king lists come from the 17th-century Wangsakerta manuscripts, whose
+  authenticity is disputed, so they are not used here. The capital's location is unknown.
+
+territory:
+  - from: 400
+    to: 669
+    grow_until: 450
+    shrink_from: 620
+    regions: [wj_north_coast, wj_bogor]
+    boundary_type: approximate
+    confidence: low
+    note: Area of the Bogor and Jakarta inscriptions.
+  - from: 400
+    to: 669
+    grow_until: 450
+    regions: [banten_west]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Cidanghiyang (Lebak) inscription in southern Banten.

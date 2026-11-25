@@ -1,0 +1,69 @@
+id: medang
+name: Medang (Mataram)
+names:
+  - { name: Mataram, note: "Often called the Mataram Kingdom; not to be confused with the later Mataram Sultanate" }
+  - { name: Medang i Bhumi Mataram, lang: Old Javanese }
+type: kingdom
+period:
+  start: { year: 732, approx: true }
+  end: { year: 1016, approx: true }
+color: "#8e6c8a"
+capitals:
+  - { name: Mataram plain (exact site unknown), from: 732, to: 929, coords: [110.40, -7.75], approx: true }
+  - { name: Tamwlang / Watugaluh (East Java), from: 929, to: 1016, coords: [112.25, -7.55], approx: true }
+summary: >
+  Medang was the Hindu–Buddhist kingdom of Central Java whose rulers, including the Buddhist
+  Sailendra dynasty, built Borobudur and Prambanan in the 8th and 9th centuries. Its earliest dated
+  record is the Canggal inscription of 732. Around 929 the court moved to the Brantas valley in East
+  Java under Mpu Sindok, for reasons that are still debated. The kingdom collapsed in the 'pralaya'
+  (destruction) of about 1016, possibly after an attack linked to Srivijaya.
+rulers:
+  - { name: Sanjaya, attested: 732 }
+  - { name: Samaratungga (Sailendra), attested: 824, approx: true }
+  - { name: Rakai Pikatan, attested: 856, approx: true }
+  - { name: Balitung, from: 899, to: 911, approx: true }
+  - { name: Mpu Sindok, from: 929, to: 947, approx: true }
+  - { name: Dharmawangsa Teguh, from: 990, to: 1016, approx: true }
+religions: [Shaivism, Mahayana Buddhism]
+events:
+  - { year: 732, text: "Canggal inscription of Sanjaya, the earliest dated record of the kingdom." }
+  - { year: 800, approx: true, text: "Construction of Borobudur under the Sailendra dynasty (c. 780–830)." }
+  - { year: 856, text: "Shivagrha inscription, associated with the Prambanan temple complex." }
+  - { year: 929, approx: true, text: "Mpu Sindok rules from East Java; Central Java fades from the record." }
+  - { year: 990, approx: true, text: "Dharmawangsa campaigns against Srivijaya." }
+  - { year: 1016, approx: true, text: "The 'pralaya': the capital is destroyed and the king killed." }
+emblem: null
+confidence: low
+sources: [coedes1968, munoz2006, ricklefs2008]
+successors: [kahuripan]
+notes: >
+  Extents are rough. The Central Javanese heartland is drawn from the area of its temples and
+  inscriptions; the reasons for and date of the move east are debated. The 'pralaya' is dated to
+  1016 by most authors (some say 1006).
+
+territory:
+  - from: 732
+    to: 929
+    grow_until: 780
+    regions: [cj_interior]
+    boundary_type: approximate
+    confidence: low
+    note: Kedu and the Mataram plain, where its temples and inscriptions are concentrated.
+  - from: 760
+    to: 929
+    regions: [cj_semarang, cj_demak]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: North-coast hinterland; extent unknown.
+  - from: 899
+    to: 929
+    regions: [ej_brantas]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Inscriptions of Balitung are found in East Java around 900.
+  - from: 929
+    to: 1016
+    regions: [ej_brantas, ej_surabaya_gresik]
+    boundary_type: approximate
+    confidence: low
+    note: East Javanese period after Mpu Sindok.

@@ -1,0 +1,37 @@
+id: majapahit_east
+name: Eastern court of Majapahit
+names:
+  - { name: Kedaton Wetan, lang: Javanese, note: '"Eastern palace"; modern descriptive name' }
+type: kingdom
+period:
+  start: { year: 1389, approx: true }
+  end: { year: 1406 }
+color: "#7d4e9e"
+capitals: []
+summary: >
+  After Hayam Wuruk's death in 1389, his son Bhre Wirabhumi, born to a secondary wife, held a rival
+  court in the far east of Java while Wikramawardhana ruled from Trowulan. Ming Chinese records of this
+  period refer to separate "eastern" and "western" kings of Java. The rivalry became open war in the
+  Paregreg (1404–1406), which ended with Wirabhumi's defeat and death.
+rulers:
+  - { name: Bhre Wirabhumi, from: 1389, to: 1406, approx: true }
+religions: [Shaivism, Buddhism]
+events:
+  - { year: 1404, text: "Paregreg civil war with the western court begins." }
+  - { year: 1406, text: "Wirabhumi is defeated and killed. Envoys from Zheng He's fleet are killed in the fighting, and the western king later pays compensation to the Ming." }
+emblem: null
+confidence: low
+sources: [ricklefs2008, coedes1968, munoz2006]
+predecessors: [majapahit]
+successors: [majapahit]
+notes: >
+  The location of the eastern court and the extent of its territory are uncertain. The polygon
+  is a rough guess covering Java's eastern salient. Its start is set at Hayam Wuruk's death; the
+  division may have begun earlier.
+
+territory:
+  - from: 1389
+    to: 1406
+    regions: [ej_lumajang, ej_blambangan]
+    boundary_type: approximate
+    confidence: low

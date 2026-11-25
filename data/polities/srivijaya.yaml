@@ -1,0 +1,70 @@
+id: srivijaya
+name: Srivijaya
+names:
+  - { name: Śrīvijaya, lang: Sanskrit / Old Malay }
+  - { name: Shilifoshi, lang: Chinese (Tang), note: 室利佛逝 }
+  - { name: Sanfoqi, lang: Chinese (Song), note: "三佛齊; may also cover its Jambi-based successors" }
+type: kingdom
+period:
+  start: { year: 671, approx: true }
+  end: { year: 1275, approx: true }
+color: "#c08a2b"
+capitals:
+  - { name: Palembang, from: 671, to: 1080, coords: [104.75, -2.99], approx: true, note: Location of the early centre is widely but not universally accepted. }
+  - { name: Jambi (Muara Jambi), from: 1080, to: 1275, coords: [103.67, -1.48], approx: true }
+summary: >
+  Srivijaya was a Buddhist maritime power centred on Palembang in southern Sumatra. It controlled
+  trade through the Strait of Malacca and the Sunda Strait from the late 7th century. Old Malay
+  inscriptions of the 680s record military expeditions and oaths of loyalty imposed on neighbouring
+  areas, and Chinese pilgrims studied Buddhism there. It was weakened by a Chola naval raid in 1025;
+  afterwards its centre shifted to Jambi, and it was eventually eclipsed by Malayu-Dharmasraya and
+  Javanese powers.
+rulers:
+  - { name: Dapunta Hyang Sri Jayanasa, attested: 682, note: Named in the Kedukan Bukit inscription (682). Reign dates unknown. }
+  - { name: Balaputradewa, attested: 860, approx: true, note: "Named in the Nalanda copper plate, c. 860. Reign dates unknown." }
+  - { name: Sri Cudamani Warmadewa, attested: 1003, approx: true, note: Sent embassies to China; reign dates unknown. }
+  - { name: Sangrama Vijayottunggawarman, attested: 1025, note: Captured in the Chola raid. }
+religions: [Mahayana Buddhism, Vajrayana Buddhism]
+events:
+  - { year: 671, text: "The Chinese monk Yijing stops at Shilifoshi on his way to India and studies there." }
+  - { year: 682, text: "Kedukan Bukit inscription (Palembang) records a sacred expedition (siddhayatra)." }
+  - { year: 686, text: "Kota Kapur inscription (Bangka) mentions an expedition against 'Bhumi Java'." }
+  - { year: 775, text: "Ligor inscription records a Srivijayan king founding sanctuaries on the Malay Peninsula." }
+  - { year: 1025, text: "Chola naval raid under Rajendra I sacks Srivijaya and Kadaram (Kedah)." }
+  - { year: 1275, text: "Singhasari's Pamalayu expedition to Sumatra." }
+emblem: null
+confidence: low
+sources: [coedes1968, wolters1967, munoz2006]
+notes: >
+  The end date is a convention and sources disagree. Some authors end Srivijaya with the 1025 Chola
+  raid; others extend the name to the late 13th or even the 14th century. The extents shown are
+  rough approximations based on where its inscriptions were found.
+
+territory:
+  - from: 671
+    to: 1275
+    regions: [palembang]
+    boundary_type: approximate
+    confidence: medium
+  - from: 686
+    to: 1275
+    grow_from: 682
+    regions: [jambi, bangka_belitung]
+    boundary_type: approximate
+    confidence: low
+    note: Kota Kapur (686) and Karang Brahi inscriptions. Malayu (Jambi) was absorbed by the late 7th century.
+  - from: 686
+    to: 1275
+    regions: [lampung]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: Palas Pasemah inscription, late 7th century (date approximate).
+  - from: 775
+    to: 1025
+    grow_from: 750
+    regions: [ligor, kedah]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: >
+      Ligor inscription (775) and Chola records naming Kadaram among Srivijaya's dependencies.
+      Peninsular ties after the 1025 raid are uncertain and not shown.

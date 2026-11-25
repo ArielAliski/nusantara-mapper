@@ -1,0 +1,48 @@
+id: british_java
+name: British Java
+names:
+  - { name: British interregnum in Java }
+type: colony
+period:
+  start: { year: 1811 }
+  end: { year: 1816 }
+color: "#9c2f45"
+capitals:
+  - { name: Batavia, from: 1811, to: 1816, coords: [106.81, -6.13] }
+summary: >
+  During the Napoleonic Wars, British East India Company forces took Java from the Franco-Dutch
+  administration in 1811. Under Lieutenant-Governor Thomas Stamford Raffles they sacked the Yogyakarta
+  court in 1812, abolished the Banten sultanate and introduced a land-rent system. Java was returned
+  to the Netherlands in 1816 under the Anglo-Dutch Convention of 1814.
+rulers:
+  - { name: Thomas Stamford Raffles, from: 1811, to: 1816, note: Lieutenant-governor }
+religions: []
+events:
+  - { year: 1811, text: "British forces take Java; Raffles becomes lieutenant-governor." }
+  - { year: 1812, text: "British troops storm the Yogyakarta kraton." }
+  - { year: 1816, text: "Java is handed back to the Netherlands." }
+emblem: null
+confidence: medium
+sources: [ricklefs2008]
+predecessors: [dutch_east_indies]
+successors: [dutch_east_indies]
+notes: British forces also held Maluku (1810–1817) and other Dutch posts; those are not drawn here.
+territory:
+  - from: 1811
+    to: 1816
+    regions: [batavia, wj_north_coast, wj_bogor, wj_priangan, wj_cirebon, cj_semarang, cj_demak,
+              cj_lasem, ej_tuban, ej_surabaya_gresik, madura, ej_blambangan, ej_lumajang]
+    boundary_type: approximate
+    confidence: medium
+  - from: 1813
+    to: 1816
+    regions: [banten_west]
+    boundary_type: approximate
+    confidence: medium
+    note: Raffles abolished the Banten sultanate in 1813.
+  - from: 1811
+    to: 1816
+    regions: [cj_interior, ej_brantas, ej_madiun, cj_west]
+    boundary_type: zone_of_influence
+    confidence: low
+    note: The princely states of Yogyakarta and Surakarta.
